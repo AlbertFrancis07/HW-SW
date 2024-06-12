@@ -1,0 +1,26 @@
+
+#ifndef FIR_FILTER_H
+#define FIR_FILTER_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <xtensa/tie/fir_tie.h>
+
+/*
+ * select TIE version:
+ * 	0: fir_mac
+ * 	1: fir_simd
+ * 	2: fir_advancedTIE 
+ */
+#define FIR_TIE	2
+
+
+//function prototypes
+void fir_macTIE(short *in, int *out, int len);
+void fir_simdTIE(short *in, int *out, int len);
+void fir_advancedTIE(short *in, int *out, int len);
+
+
+#endif //FIR_FILTER_H
+
+

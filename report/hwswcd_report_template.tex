@@ -1,0 +1,260 @@
+\documentclass{tudscrreprt}
+% Documentation available at https://ctan.org/pkg/tudscr
+
+\iftutex
+\usepackage{fontspec}
+\else
+\usepackage[T1]{fontenc}
+\fi
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usetikzlibrary[shapes,positioning]
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\usepackage{framed}
+
+\lstset
+{
+    numbers=left,
+    stepnumber=1,
+    firstnumber=1,
+    numberfirstline=true,
+    basicstyle=\ttfamily,        % the size of the fonts that are used for the code
+    breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+    breaklines=true,                 % sets automatic line breaking
+    captionpos=b,                    % sets the caption-position to bottom
+    commentstyle=\color{cdgreen},    % comment style
+    deletekeywords={...},            % if you want to delete keywords from the given language
+    escapeinside={\%*(}{*)},          % if you want to add LaTeX within your code
+    emphstyle=\bfseries,
+    language=C,
+    moredelim=[is][\bfseries]{\$\$\$}{\$\$\$},
+    %extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+    frame=single,	                   % adds a frame around the code
+    keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+    keywordstyle=\color{cddarkblue},       % keyword style
+    morekeywords={*,...},            % if you want to add more keywords to the set
+    rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+    showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+    showstringspaces=false,          % underline spaces within strings only
+    showtabs=false,                  % show tabs within strings adding particular underscores
+    stringstyle=\color{cdpurple},     % string literal style
+    tabsize=4,	                   % sets default tabsize to 2 spaces
+    title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\lstdefinestyle{tie}{
+    language=verilog,
+    morekeywords={
+        % Extracted from https://www.vim.org/scripts/script.php?script_id=1964
+        state,regfile,immediate_range,
+        table,
+        interface,
+        operation,
+        schedule,semantic,length,
+        format,slot,slot_opcodes,import_wire,
+        queue,ctype,proto,user_register,coprocessor,
+        function,field,opcode,operand,iclass,reference,
+        add_read_write,assign,core,immediate,
+        in,inout,Inst,InstBuf,MEM,out,wire,
+        export,
+        VAddr,
+        MemDataIn128,MemDataIn64,MemDataIn32,
+        MemDataIn16,MemDataIn8,
+        MemDataOut128,MemDataOut64,MemDataOut32,
+        MemDataOut16,MemDataOut8,
+        LoadByteDisable,StoreByteDisable,
+        shared,slot_shared,
+        lookup,imap,
+        TIEadd,TIEaddn,TIEcmp,TIEcsa,TIEmac,
+        TIEmul,TIEmulpp,TIEmux,TIEpsel,TIEsel,
+        TIEprint,
+        PIFReadDataBits,PIFWriteDataBits,
+        IsaMemoryOrder,IsaUseBooleans,IsaCoprocessorCount,
+    },
+    moredelim=[is][\bfseries]{\$\$\$}{\$\$\$},
+}
+
+\newcommand{\question}[1]{\noindent\textit{#1}\\}
+\newcommand{\answer}[1]{\vspace{-1.5em}\begin{oframed}#1\end{oframed}}
+
+\begin{document}
+
+% ############################################################
+% TODO: Fill in your names and e-mail addresses
+\author{
+Student One 
+\emailaddress{student.one@mailbox.tu-dresden.de}
+\and
+Student Two
+\emailaddress{student.two@mailbox.tu-dresden.de}
+}
+\date{30.09.2024}
+% ############################################################
+
+\faculty{Faculty of Electrical Engineering and Computer Engineering}
+\institute{Institute of Communication Technology}
+\chair{Vodafone Chair of Mobile Communications Systems}
+\title{Project Report: HW/SW Co-Design Lab}
+\subtitle{SS 2024}
+\supervisor{Viktor Razilov \and Dr. Emil Mat\'{u}\v{s}}
+
+\maketitle
+
+\chapter*{Introduction}
+
+\newlength{\unit}
+\setlength{\unit}{.5cm}
+
+\tikzset{
+    start/.style={draw,rectangle,text width=2.5\unit,rounded corners=.2\unit,
+    minimum height=1\unit,align=center},
+    xtstep/.style={draw,rectangle,text width=4.5\unit,minimum height=\unit,
+    align=center},
+    fork/.style={draw,diamond,text width=2.9\unit,inner sep=1pt,align=center,
+    aspect=2}
+}
+
+\begin{wrapfigure}{r}{0.3\textwidth}
+    \centering
+    \begin{tikzpicture}[node distance=.6\unit,font=\tiny]
+        \node[start] (step1) {Start};
+        \node[xtstep,below=of step1] (step2) {1. Profile Application to find Hot
+        Spots};
+        \node[xtstep,below=of step2] (step3) {2. Describe TIE Instruction Set
+        Extensions};
+        \node[xtstep,below=of step3] (step4) {3. Modify Application to use TIE};
+        \node[fork,below=of step4] (step5) {TIE functionally correct?};
+        \node[fork,below=of step5] (step6) {Target performance achieved?};
+        \node[start,below=of step6] (step7) {Hardware Optimization};
+
+        \node[coordinate,right=of step2] (loopback) {};
+
+        \draw[->] (step1) -- (step2);
+        \draw[->] (step2) -- node[coordinate,midway] (loop) {} (step3);
+        \draw[->] (step3) -- (step4);
+        \draw[->] (step4) -- (step5);
+        \draw[->] (step5) -- node[right] {Yes} (step6);
+        \draw[->] (step5) -| node[midway,right] {No} (loopback |- loop) -- (loop);
+        \draw[->] (step6) -- node[right] {Yes} (step7);
+        \draw[->] (step6) -| node[midway,right] {No} (loopback |- loop) -- (loop);
+    \end{tikzpicture}
+    \caption{Similar to Tensilica Instruction Extension (TIE) Language, User's
+    Guide. 02/2014, p. 4.}
+    \label{fig:flow}
+\end{wrapfigure}
+
+The HW/SW Co-Design Lab is intended to give a first practical access to this
+topic and experiencing the potential of the conjoint design of hardware and
+software. For this purpose, the reconfigurable processor flow from the company
+\emph{Tensilica} is used (shown in \cref{fig:flow}). The tool suite provides
+convenient means for analyzing and optimizing the performance of the software.
+Especially the possibility to easily extend the processor's hardware
+architecture by customer specific instructions using the \emph{Tensilica
+Instruction Extension (TIE)} language is well suited to demonstrate the
+interaction between hardware and software design.
+
+Within the scope of this lab, the following 2 exercises should be done:
+
+\begin{enumerate}
+\item Implementation of a finitie impulse response (FIR) filter design including
+    performance analysis; HW/SW optimization: e.g., by Fusion, SIMD extension,
+    etc.; also consider different implementation alternatives for the FIR.
+\item Improve the performance of a given fast Fourier transform (FFT)/inverse
+    fast Fourier transform (IFFT) algorithm by using basic instruction extension
+    concepts (Fusion/SIMD/FLIX/etc.). Also consider different implementations
+    such as the Decimation in Time (DIT) and Decimation in Frequency (DIF)
+    algorithm.
+\end{enumerate}
+
+\noindent\emph{The written report should only include the results of the second task and
+need not exceed 3 pages (source code excerpts not included)!}\\
+
+\noindent The detailed project description can be found at the lab webpage:\\
+\url{https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/21521498113}
+
+\chapter*{Source Code}
+
+\section*{Source code C files (only excerpts from the parts that have been
+changed; please highlight important parts).}
+
+% ############################################################
+% TODO: Replace with your source code
+% \lstinputlisting may also be used to include your source code file directly
+% Emphasize parts with $$$ ... $$$
+\begin{lstlisting}
+int main()
+{
+    // Test
+    $$$printf("Hello World");$$$
+}
+\end{lstlisting}
+% ############################################################
+
+\section*{Source code TIE files}
+
+% ############################################################
+% TODO: Replace with your source code
+% \lstinputlisting may also be used to include your source code file directly
+\begin{lstlisting}[style=tie]
+// Test
+operation MUL_SRL_16 {out AR z, in AR a, in AR b} {
+    wire [31:0] m = TIEmul(a[15:0],b[15:0],1);
+    $$$assign z = {16'b0, m[31:16]};$$$
+}
+\end{lstlisting}
+
+\chapter*{Questions}
+
+% TODO: Answer question
+\question{Which acceleration technique(s) has/have been used and why?}
+\answer{
+}
+
+\question{Which part of the FFT algorithm did you accelerate and why?}
+\answer{
+}
+
+\question{What is the impact on execution time (speedup)?}
+\answer{
+}
+
+\question{What is the impact on the hardware (area)?}
+\answer{
+}
+
+\question{What is the impact on the software (new instructions, modified source
+code, compiler intrinsics)?}
+\answer{
+}
+
+\chapter*{Detailed Report}
+
+\question{Step-by-step description \textbf{(min 1. page, max 3 pages)} of each
+optimization step that has been tried (even if no performance increase could be
+achieved):
+\begin{itemize}
+    \item What software optimization or hardware acceleration strategies you
+        tried?
+    \item Refer your explanations to the C/TIE code making use of the line
+        numbers
+    \item How did the performance increase (or decrease)? If you obtain a
+        performance decrease, explain why and due to which acceleration method.
+    \item What are the costs for the performance increase?
+    \item Make a tradeoff performance vs. increased costs.
+\end{itemize}
+Conclude with an overall summary: Which combination of optimization and hardware
+acceleration strategies do you suggest, i.e., yields the best performance
+results or speed/area tradeoff? Summarize the experiences you gained with this
+task.}
+\answer{
+}
+
+\end{document}
