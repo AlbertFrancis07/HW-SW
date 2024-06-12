@@ -1,0 +1,25 @@
+!SESSION 2024-06-12 22:52:54.949 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  256m -application org.eclipse.ui.ide.workbench
+Command-line arguments:  -os win32 -ws win32 -arch x86 256m -application org.eclipse.ui.ide.workbench
+
+!ENTRY org.eclipse.ui 4 4 2024-06-12 22:53:07.668
+!MESSAGE Unable to find view with id: org.eclipse.cdt.ui.CView, when creating perspective org.eclipse.cdt.ui.CPerspective
+
+!ENTRY org.eclipse.ui 4 4 2024-06-12 22:53:07.699
+!MESSAGE Unable to find Action Set: org.eclipse.cdt.make.ui.makeTargetActionSet
+
+!ENTRY org.eclipse.ui 4 4 2024-06-12 22:53:07.699
+!MESSAGE Unable to find Action Set: org.eclipse.cdt.ui.buildConfigActionSet
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-06-12 22:53:25.637
+!MESSAGE No repository found at http://xpg.cadence.com/xplorer/update/xx_707/.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-12 22:53:30.652
+!MESSAGE Indexed 'HelloWorld' (1 sources, 13 headers) in 0,48 sec: 3 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-12 22:54:39.277
+!MESSAGE Indexed 'fir_filter' (0 sources, 13 headers) in 0,02 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)

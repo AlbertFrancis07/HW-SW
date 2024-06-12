@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="com.tensilica.xide.cdt.launch.ISSLaunch">
-<booleanAttribute key="com.tensilica.xide.cdt.autoLaunch" value="true"/>
-<stringAttribute key="cyclemodel" value="--pipe"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="${xt_exe}"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="${xt_project}"/>
-<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
-</launchConfiguration>
