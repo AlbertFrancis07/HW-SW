@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="25" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="156" y="156">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.ui.navigator.ProjectExplorer"/>
+<orientation position="512" view="com.tensilica.xide.benchmark.ui.AssemblyProfileView"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="31"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.tensilica.xide.cdt.ui.actionSet.activeSetFiltering" itemType="typeToolBarContribution" x="38" y="31"/>
+<coolItem id="com.tensilica.xide.core.xpg.XPGConnectionMgr.connectXPG" itemType="typeToolBarContribution" x="38" y="31"/>
+<coolItem id="com.tensilica.xide.scon.StartupWizard" itemType="typeToolBarContribution" x="38" y="31"/>
+<coolItem id="com.tensilica.xide.scon.buildAcontrols" itemType="typeToolBarContribution" x="114" y="31"/>
+<coolItem id="com.tensilica.xide.scon.buildBcontrols" itemType="typeToolBarContribution" x="533" y="31"/>
+<coolItem id="com.tensilica.xide.scon.runcontrols" itemType="typeToolBarContribution" x="260" y="31"/>
+<coolItem id="com.tensilica.xide.tutorial.actionSet" itemType="typeToolBarContribution" x="84" y="31"/>
+<coolItem id="org.eclipse.cdt.dsf.debug.ui.updateModes" itemType="typeToolBarContribution" x="38" y="31"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="53" y="31"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="31"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="31"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="31"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="31"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.tensilica.xide.scon.edxcf.XCFEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.tensilica.xide.ed.ted.TED" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1718625105419" focus="true" label="Workspace - Benchmark">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="com.tensilica.xide.benchmark.ui.CompareView" partName="Comparison">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.benchmark.ui.OutputView" partName="Saved Output">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.benchmark.ui.CallGraphView" partName="Call-Graph">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.ui.views.xpg.repository.XPGRepositoryView" partName="XPG View">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.benchmark.ui.AssemblyProfileView" partName="Profile Disassembly">
+<viewState>
+<menus>
+<menu_item element="Symbolic Address" isChecked="true"/>
+<menu_item element="Interleaved Source" isChecked="true"/>
+<menu_item element="Multi-line FLIX" isChecked="true"/>
+</menus>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.scon.sysview.SysView" partName="System Overview">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.benchmark.ui.ISAProfileView" partName="ISA Profile">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Infos"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="188" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="379"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.trace.ui.views.TraceCaptureView" partName="Trace Capture">
+<viewState autoincrement="true"/>
+</view>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" partName="Disassembly">
+<viewState disassembly.symbolName="" disassembly.syncActiveContext="true" disassembly.trackExpression="false" disassembly.viewDisassemblyFromBinary="true"/>
+</view>
+<view id="com.tensilica.xide.scon.estimview.EstimationView" partName="Estimation">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.dsf.ui.GridRegisterView" partName="Grid Registers">
+<viewState sash_scalar_part="200" sash_vector_part="800">
+<PRESENTATION_CONTEXT_PROPERTIES IMemento.internal.id="com.tensilica.xide.dsf.ui.GridRegisterView.GridViewer">
+<INTEGER IMemento.internal.id="Max no of registers per row" INTEGER="4"/>
+<BOOLEAN BOOLEAN="true" IMemento.internal.id="Value wrap"/>
+<STRING IMemento.internal.id="CurrentNumericStyle" STRING="HEX.Format"/>
+</PRESENTATION_CONTEXT_PROPERTIES>
+</viewState>
+</view>
+<view id="com.tensilica.xide.dsf.ui.memory.bounded.MemoryView" partName="Bounded Memory">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.MemoryView" partName="Memory">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.cdt.tiewireview.TieWireView" partName="Tie Wires">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.priorityField="30" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.tensilica.xide.benchmark.ui.PipelineView" partName="Pipeline">
+<viewState/>
+</view>
+<view id="com.tensilica.xide.benchmark.ui.ProfileView" partName="Profile (Cycles)">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.tensilica.xide.benchmark.ui.ProfileView" activePerspective="com.tensilica.xide.benchmark.ui.BenchmarkPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.ui.codecoverage.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.stackusage.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.actionset"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.control.cache.ui.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.buildAcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.buildBcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionset"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionSet.activeSetFiltering"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionSet.upgradeOldXtensaProject"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.StartupWizard"/>
+<alwaysOnActionSet id="com.tensilica.xide.core.actionset.tools"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.dsf.ui.AddBreakpointActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.managedbuild.ui.actionSet.BuildProperties"/>
+<alwaysOnActionSet id="com.tensilica.xide.managedbuild.ui.actionSet.LibraryDependencies"/>
+<alwaysOnActionSet id="com.tensilica.xide.ocd.ui.xocdm.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.runcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.core.xpg.XPGConnectionMgr.connectXPG"/>
+<alwaysOnActionSet id="com.tensilica.xide.simd.ui.actionSet"/>
+<alwaysOnActionSet id="com.tensilice.xide.trace.ui.view.TimelineView.actionSet.navigationAction"/>
+<alwaysOnActionSet id="com.tensilica.xide.tutorial.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.HelpKeysActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.TensilicaSupportActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.SaveStateActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.XtensaUpdates"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.BrowseSamplesAction"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CodingActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.cdt.ui.CView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.tensilica.xide.scon.sysview.SysView"/>
+<show_view_action id="com.tensilica.xide.scon.estimview.EstimationView"/>
+<show_view_action id="com.tensilica.xide.ui.views.xpg.repository.XPGRepositoryView"/>
+<show_view_action id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="com.tensilica.xide.scon.wizards.cproj.XtensaCProjectWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.CFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.CppFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.HFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.SFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.TIEFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.ConfigWiz"/>
+<perspective_action id="com.tensilica.xide.benchmark.ui.BenchmarkPerspective"/>
+<perspective_action id="com.tensilica.xide.trace.ui.TracePerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="com.tensilica.xide.scon.estimview.EstimationView"/>
+<view id="com.tensilica.xide.ui.views.xpg.repository.XPGRepositoryView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<view id="com.tensilica.xide.scon.sysview.SysView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@48e756" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.74922603" ratioLeft="484" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.tensilica.xide.scon.estimview.EstimationView" label="Estimation"/>
+<page content="com.tensilica.xide.ui.views.xpg.repository.XPGRepositoryView" label="XPG View"/>
+<page content="com.tensilica.xide.benchmark.ui.ProfileView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
+<page content="org.eclipse.ui.browser.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.browser.view:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@dc1e4b" ratio="0.6687307" ratioLeft="432" ratioRight="214" relationship="4" relative="topLeft">
+<folder activePageID="com.tensilica.xide.scon.sysview.SysView" appearance="2" expanded="2">
+<page content="com.tensilica.xide.scon.sysview.SysView" label="System Overview"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.tensilica.xide.benchmark.ui.BenchmarkPerspectiveFactory" id="com.tensilica.xide.benchmark.ui.BenchmarkPerspective" label="Benchmark"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.ui.codecoverage.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.stackusage.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.actionset"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.control.cache.ui.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.buildAcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.buildBcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionset"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionSet.activeSetFiltering"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionSet.upgradeOldXtensaProject"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.StartupWizard"/>
+<alwaysOnActionSet id="com.tensilica.xide.core.actionset.tools"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.dsf.ui.AddBreakpointActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.managedbuild.ui.actionSet.BuildProperties"/>
+<alwaysOnActionSet id="com.tensilica.xide.managedbuild.ui.actionSet.LibraryDependencies"/>
+<alwaysOnActionSet id="com.tensilica.xide.ocd.ui.xocdm.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.runcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.core.xpg.XPGConnectionMgr.connectXPG"/>
+<alwaysOnActionSet id="com.tensilica.xide.simd.ui.actionSet"/>
+<alwaysOnActionSet id="com.tensilice.xide.trace.ui.view.TimelineView.actionSet.navigationAction"/>
+<alwaysOnActionSet id="com.tensilica.xide.tutorial.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.HelpKeysActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.TensilicaSupportActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.SaveStateActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.XtensaUpdates"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.BrowseSamplesAction"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.ProjectView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.ProfileView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.AssemblyProfileView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.CompareView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.OutputView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.PipelineView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.TraceView"/>
+<show_view_action id="com.tensilica.xide.benchmark.ui.ISAProfileView"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.TIEFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.CFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.CppFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.HFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.SFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.ConfigWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.sys.SysWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.taskengine.TaskEngineSystemCreationWizard"/>
+<new_wizard_action id="com.tensilica.xide.scon.wizards.cproj.XtensaCProjectWiz"/>
+<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.tensilica.xide.trace.ui.TracePerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.tensilica.xide.benchmark.ui.ProfileView"/>
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.2993311"/>
+<view id="com.tensilica.xide.benchmark.ui.AssemblyProfileView" ratio="0.29994342"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@207a99" orientation="256" selectedTabId="com.tensilica.xide.benchmark.ui.ISAProfileView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<view id="com.tensilica.xide.benchmark.ui.CallGraphView" ratio="0.3"/>
+<view id="com.tensilica.xide.benchmark.ui.CompareView" ratio="0.3"/>
+<view id="com.tensilica.xide.benchmark.ui.OutputView" ratio="0.3"/>
+<view id="com.tensilica.xide.benchmark.ui.PipelineView" ratio="0.3"/>
+<view id="com.tensilica.xide.benchmark.ui.ISAProfileView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder appearance="2" expanded="2">
+<page content="com.tensilica.xide.benchmark.ui.ProjectView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7497213" ratioLeft="1345" ratioRight="449" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5e7cac" ratio="0.24972129" ratioLeft="448" ratioRight="1346" relationship="2" relative="left">
+<folder activePageID="com.tensilica.xide.benchmark.ui.ProfileView" appearance="2" expanded="2">
+<page content="com.tensilica.xide.benchmark.ui.ProfileView" label="Profile (Cycles)"/>
+<page content="com.tensilica.xide.benchmark.ui.AssemblyProfileView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24939173" ratioLeft="205" ratioRight="617" relationship="4" relative="org.eclipse.ui.internal.ViewStack@5e7cac"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@207a99" ratio="0.74939173" ratioLeft="616" ratioRight="206" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="com.tensilica.xide.benchmark.ui.CallGraphView" label="LabelNotFound"/>
+<page content="com.tensilica.xide.benchmark.ui.CompareView" label="LabelNotFound"/>
+<page content="com.tensilica.xide.benchmark.ui.OutputView" label="LabelNotFound"/>
+<page content="com.tensilica.xide.benchmark.ui.PipelineView" label="LabelNotFound"/>
+<page content="com.tensilica.xide.benchmark.ui.ISAProfileView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.ui.codecoverage.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.stackusage.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.actionset"/>
+<alwaysOnActionSet id="com.tensilica.xide.benchmark.control.cache.ui.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.buildAcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.buildBcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionset"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionSet.activeSetFiltering"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.ui.actionSet.upgradeOldXtensaProject"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.StartupWizard"/>
+<alwaysOnActionSet id="com.tensilica.xide.core.actionset.tools"/>
+<alwaysOnActionSet id="com.tensilica.xide.cdt.dsf.ui.AddBreakpointActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.managedbuild.ui.actionSet.BuildProperties"/>
+<alwaysOnActionSet id="com.tensilica.xide.managedbuild.ui.actionSet.LibraryDependencies"/>
+<alwaysOnActionSet id="com.tensilica.xide.ocd.ui.xocdm.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.scon.runcontrols"/>
+<alwaysOnActionSet id="com.tensilica.xide.core.xpg.XPGConnectionMgr.connectXPG"/>
+<alwaysOnActionSet id="com.tensilica.xide.simd.ui.actionSet"/>
+<alwaysOnActionSet id="com.tensilice.xide.trace.ui.view.TimelineView.actionSet.navigationAction"/>
+<alwaysOnActionSet id="com.tensilica.xide.tutorial.actionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.HelpKeysActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.TensilicaSupportActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.SaveStateActionSet"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.XtensaUpdates"/>
+<alwaysOnActionSet id="com.tensilica.xide.wizards.actions.BrowseSamplesAction"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.dsf.debug.ui.updateModes"/>
+<alwaysOnActionSet id="org.eclipse.cdt.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.tensilica.xide.cdt.tiewireview.TieWireView"/>
+<show_view_action id="com.tensilica.xide.dsf.ui.GridRegisterView"/>
+<show_view_action id="com.tensilica.xide.dsf.ui.memory.bounded.MemoryView"/>
+<show_view_action id="com.tensilica.xide.trace.ui.views.TraceCaptureView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.SignalsView"/>
+<show_view_action id="org.eclipse.debug.ui.RegisterView"/>
+<show_view_action id="org.eclipse.debug.ui.ModuleView"/>
+<show_view_action id="org.eclipse.debug.ui.MemoryView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.executablesView"/>
+<show_view_action id="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view"/>
+<show_view_action id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="com.tensilica.xide.scon.wizards.cproj.XtensaCProjectWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.CFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.CppFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.HFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.SFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.srcfiles.TIEFileWiz"/>
+<new_wizard_action id="com.tensilica.xide.wizards.ConfigWiz"/>
+<perspective_action id="com.tensilica.xide.benchmark.ui.BenchmarkPerspective"/>
+<perspective_action id="com.tensilica.xide.trace.ui.TracePerspective"/>
+<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.tensilica.xide.dsf.ui.GridRegisterView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.debug.ui.MemoryView"/>
+<view id="com.tensilica.xide.dsf.ui.memory.bounded.MemoryView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.debug.ui.RegisterView"/>
+<view id="com.tensilica.xide.cdt.tiewireview.TieWireView"/>
+<view id="com.tensilica.xide.trace.ui.views.TraceCaptureView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7497213" ratioLeft="1345" ratioRight="449" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74939173" ratioLeft="616" ratioRight="206" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.tensilica.xide.dsf.ui.GridRegisterView" label="Grid Registers"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="Memory"/>
+<page content="com.tensilica.xide.dsf.ui.memory.bounded.MemoryView" label="Bounded Memory"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.executablesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44967532" ratioLeft="277" ratioRight="339" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7497213" ratioLeft="1345" ratioRight="449" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="897" ratioRight="897" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="com.tensilica.xide.cdt.tiewireview.TieWireView" label="Tie Wires"/>
+<page content="com.tensilica.xide.trace.ui.views.TraceCaptureView" label="Trace Capture"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="Registers"/>
+<page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@5e7cac"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomright"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@207a99"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="reset-vector.S" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/xtos/reset-vector.S">
+<persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/xtos/reset-vector.S"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fflush.c" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/fflush.c">
+<persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/fflush.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="HelloWorld/main.c">
+<persistable path="/HelloWorld/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vfprintf.c" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/vfprintf.c">
+<persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/vfprintf.c"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,551 @@
+**** Incremental Build [Mo, 17 Jun 2024 13:53:17] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_mac.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 266 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_adv.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 266 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c:6:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 219 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_SIMD.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c:11:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 219 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/C/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/C/fir_filter.o" 
+Time taken: 2063 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 3.86 secs
+**** Build Finished [Mo, 17 Jun 2024 13:53:21] ****
+**** Incremental Build [Mo, 17 Jun 2024 17:06:06] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_adv.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 250 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_mac.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 250 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c:6:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 203 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_SIMD.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c:11:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 266 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.875 secs
+**** Build Finished [Mo, 17 Jun 2024 17:06:08] ****
+**** Incremental Build [Mo, 17 Jun 2024 17:22:34] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_adv.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 219 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_mac.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 219 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_SIMD.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c:11:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 187 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c:6:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 281 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.406 secs
+**** Build Finished [Mo, 17 Jun 2024 17:22:36] ****
+**** Incremental Build [Mo, 17 Jun 2024 17:47:14] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_adv.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_mac.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c:6:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 188 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_SIMD.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c:11:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 328 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.422 secs
+**** Build Finished [Mo, 17 Jun 2024 17:47:15] ****
+**** Incremental Build [Mo, 17 Jun 2024 19:19:25] ****
+ Project: fft
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 2984 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/fft.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft.o" 
+Time taken: 3125 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 484 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 922 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  43882	      0	      0	      0	  43882	   ab6a	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+literal	    844	      0	      0	      0	    844	    34c	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+other  	   1585	   1868	   4608	    144	   8205	   200d	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+Total  	  46311	   1868	   4608	    144	  52931	   cec3	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+
+Time taken: 281 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 4.922 secs
+**** Build Finished [Mo, 17 Jun 2024 19:19:29] ****
+**** Incremental Build [Mo, 17 Jun 2024 19:19:48] ****
+ Project: fft
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Mo, 17 Jun 2024 19:19:48] ****
+**** Incremental Build [Mo, 17 Jun 2024 19:20:07] ****
+ Project: fft
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Mo, 17 Jun 2024 19:20:07] ****
+**** Incremental Build [Mo, 17 Jun 2024 19:23:54] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_adv.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 218 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_mac.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 218 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_SIMD.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c:11:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 235 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c:6:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 266 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.328 secs
+**** Build Finished [Mo, 17 Jun 2024 19:23:55] ****
+**** Incremental Build [Mo, 17 Jun 2024 19:24:06] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_mac.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_mac.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_adv.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_adv.c:12:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter_SIMD.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter_SIMD.c:11:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 218 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fir_filter/C" -I "U:/HWSWCODESIGN/workspace/fir_filter/solution" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug/solution/fir_filter.o" 
+In file included from U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.c:6:
+U:/HWSWCODESIGN/workspace/fir_filter/solution/fir_filter.h:7:32: error: xtensa/tie/fir_tie.h: No such file or directory
+Time taken: 234 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.187 secs
+**** Build Finished [Mo, 17 Jun 2024 19:24:08] ****
+**** Clean-only Build [Mo, 17 Jun 2024 19:24:25] ****
+ Project: fir_filter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Cleaning the build output folder "U:/HWSWCODESIGN/workspace/fir_filter/bin/hwsw_codesign2019_aligned/Debug"... 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 0.171 secs
+**** Build Finished [Mo, 17 Jun 2024 19:24:25] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:16:48] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/HelloWorld/main.c" -o "U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 563 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 235 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 485 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  36639	      0	      0	      0	  36639	   8f1f	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+literal	    536	      0	      0	      0	    536	    218	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+other  	   1368	   1356	   2544	    112	   5380	   1504	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+Total  	  38543	   1356	   2544	    112	  42555	   a63b	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+
+Time taken: 125 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 1.938 secs
+**** Build Finished [Mo, 17 Jun 2024 21:16:50] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:17:05] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:17:05] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:17:09] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:17:09] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:18:02] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:18:02] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:18:28] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.0 secs
+**** Build Finished [Mo, 17 Jun 2024 21:18:28] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:18:41] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Mo, 17 Jun 2024 21:18:41] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:18:45] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Mo, 17 Jun 2024 21:18:45] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:18:55] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:18:55] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:25:55] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.094 secs
+**** Build Finished [Mo, 17 Jun 2024 21:25:56] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:25:59] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:25:59] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:26:08] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Mo, 17 Jun 2024 21:26:08] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:28:20] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:28:20] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:31:07] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:31:07] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:31:13] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Mo, 17 Jun 2024 21:31:13] ****
+**** Incremental Build [Mo, 17 Jun 2024 21:31:22] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.031 secs
+**** Build Finished [Mo, 17 Jun 2024 21:31:22] ****
+**** Incremental Build [Di, 18 Jun 2024 11:10:36] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.031 secs
+**** Build Finished [Di, 18 Jun 2024 11:10:36] ****
+**** Incremental Build [Di, 18 Jun 2024 11:10:50] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/HelloWorld/main.c" -o "U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/HelloWorld/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/HelloWorld/main.c:4: warning: return type of 'main' is not 'int'
+Time taken: 2516 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 328 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 703 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  36633	      0	      0	      0	  36633	   8f19	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+literal	    536	      0	      0	      0	    536	    218	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+other  	   1366	   1356	   2544	    112	   5378	   1502	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+Total  	  38535	   1356	   2544	    112	  42547	   a633	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+
+Time taken: 250 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 4.875 secs
+**** Build Finished [Di, 18 Jun 2024 11:10:54] ****
+**** Incremental Build [Di, 18 Jun 2024 11:11:01] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Di, 18 Jun 2024 11:11:01] ****
+**** Incremental Build [Di, 18 Jun 2024 11:35:38] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O2 -fmessage-length=0 -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/HelloWorld/main.c" -o "U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/HelloWorld/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/HelloWorld/main.c:4: warning: return type of 'main' is not 'int'
+Time taken: 797 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 235 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 437 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  36633	      0	      0	      0	  36633	   8f19	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+literal	    536	      0	      0	      0	    536	    218	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+other  	   1366	   1356	   2544	    112	   5378	   1502	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+Total  	  38535	   1356	   2544	    112	  42547	   a633	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+
+Time taken: 125 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.188 secs
+**** Build Finished [Di, 18 Jun 2024 11:35:40] ****
+**** Incremental Build [Di, 18 Jun 2024 11:35:56] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Di, 18 Jun 2024 11:35:56] ****
+**** Incremental Build [Di, 18 Jun 2024 11:36:55] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O3 -fmessage-length=0 -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/HelloWorld/main.c" -o "U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/HelloWorld/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/HelloWorld/main.c:4: warning: return type of 'main' is not 'int'
+Time taken: 750 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 313 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 375 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  36633	      0	      0	      0	  36633	   8f19	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+literal	    536	      0	      0	      0	    536	    218	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+other  	   1366	   1356	   2544	    112	   5378	   1502	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+Total  	  38535	   1356	   2544	    112	  42547	   a633	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+
+Time taken: 187 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.141 secs
+**** Build Finished [Di, 18 Jun 2024 11:36:57] ****
+**** Incremental Build [Di, 18 Jun 2024 11:37:02] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Di, 18 Jun 2024 11:37:02] ****
+**** Incremental Build [Di, 18 Jun 2024 12:08:20] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.0 secs
+**** Build Finished [Di, 18 Jun 2024 12:08:20] ****
+**** Incremental Build [Di, 18 Jun 2024 12:08:25] ****
+ Project: HelloWorld
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.031 secs
+**** Build Finished [Di, 18 Jun 2024 12:08:25] ****

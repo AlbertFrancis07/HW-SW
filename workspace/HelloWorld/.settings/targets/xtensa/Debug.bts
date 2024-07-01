@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<BuildTarget version="1.0" tool="xtensa">
+<BuildTarget tool="xtensa" version="1.0">
     <BuildSettings>
         <BaseSettings path="project">
             <CompilerOptions>
                 <FlagValueMapOptions>
                     <FlagValueMapEntry>
-                        <key>Debug</key>
-                        <value level="-3" flag="-g" use="true"/>
+                        <key>Optimization</key>
+                        <value level="3" flag="-O" use="true"/>
                     </FlagValueMapEntry>
                     <FlagValueMapEntry>
-                        <key>Optimization</key>
-                        <value level="0" flag="-O" use="true"/>
+                        <key>Debug</key>
+                        <value level="-3" flag="-g" use="true"/>
                     </FlagValueMapEntry>
                 </FlagValueMapOptions>
             </CompilerOptions>
@@ -29,8 +29,23 @@
                         <value selected="true"/>
                     </BooleanMapEntry>
                 </BooleanMapOptions>
-                <LinkerSupport value="sim" key="-mlsp=" custom="false"/>
+                <LinkerSupport custom="false" key="-mlsp=" value="sim"/>
             </LinkerOptions>
         </BaseSettings>
+        <OverriddenSettings>
+            <OverriddenSettingsEntry>
+                <key>main.c</key>
+                <value path="main.c">
+                    <CompilerOptions>
+                        <FlagValueMapOptions>
+                            <FlagValueMapEntry>
+<key>Optimization</key>
+<value level="3" flag="-O" use="true"/>
+                            </FlagValueMapEntry>
+                        </FlagValueMapOptions>
+                    </CompilerOptions>
+                </value>
+            </OverriddenSettingsEntry>
+        </OverriddenSettings>
     </BuildSettings>
 </BuildTarget>

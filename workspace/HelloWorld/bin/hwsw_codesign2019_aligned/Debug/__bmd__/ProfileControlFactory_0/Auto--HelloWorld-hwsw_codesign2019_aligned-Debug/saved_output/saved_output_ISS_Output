@@ -1,0 +1,33 @@
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-run --xtensa-core=hwsw_codesign2019_aligned --xtensa-system=C:\usr\xtensa\XtDevTools\install\builds\RF-2016.4-win32\hwsw_codesign2019_aligned\config --xtensa-params= --console --summary --client=U:\HWSWCODESIGN\workspace\.metadata\.plugins\com.tensilica.xide.cdt\Auto_--_HelloWorld_-_hwsw_codesign2019_aligned_-_Debug.clientcmds U:\HWSWCODESIGN\workspace\HelloWorld\bin\hwsw_codesign2019_aligned\Debug\HelloWorld
+Hello World
+
+Xtensa Core: "hwsw_codesign2019_aligned"  ISS Version: 11.0.4
+
+Time for Simulation = 0.00 seconds
+
+Current PC = 0x60009912
+
+Events                           Number  Number
+                                         per 100
+                                         instrs 
+
+Committed instructions            2051 ( 100.00 )
+Taken branches                     387 (  18.87 )
+Exceptions                           5 (   0.24 )
+   WindowOverflow                    3 (   0.15 )
+   WindowUnderflow                   2 (   0.10 )
+Loads                              316 (  15.41 )
+Stores                             187 (   9.12 )
+
+Cycles: total = 5808
+                                                Summed |          Summed
+                                        CPI      CPI   |% Cycle  % Cycle
+Committed instructions          2051 ( 1.0000   1.0000 |  35.31    35.31 )
+Taken branches                   794 ( 0.3871   1.3871 |  13.67    48.98 )
+Pipeline interlocks              155 ( 0.0756   1.4627 |   2.67    51.65 )
+Exceptions                        25 ( 0.0122   1.4749 |   0.43    52.08 )
+Sync replays                    2744 ( 1.3379   2.8128 |  47.25    99.33 )
+Special instructions              30 ( 0.0146   2.8274 |   0.52    99.85 )
+Loop overhead                      4 ( 0.0020   2.8294 |   0.07    99.91 )
+Reset                              5 ( 0.0024   2.8318 |   0.09   100.00 )
+
