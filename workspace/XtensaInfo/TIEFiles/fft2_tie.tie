@@ -1,0 +1,7 @@
+
+
+operation FFT_MULT {out AR y, in AR a, in AR b}{}
+{
+	wire [31:0] prod =TIEmul(a[16:0],b[16:0],1'b1);
+	assign y=prod>>15;
+}

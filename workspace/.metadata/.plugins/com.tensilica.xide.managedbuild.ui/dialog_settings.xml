@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Build_properties_section">
+		<section name="All_options_filter_section">
+			<item value="false" key="INCLUDES"/>
+			<item value="false" key="LINKERADDITIONALOPTIONS"/>
+			<item value="false" key="COMPILERADDITIONALOPTIONS"/>
+			<item value="false" key="LIBRARYSEARCHPATH"/>
+			<item value="false" key="ASSEMBLERADDITIONALOPTIONS"/>
+			<item value="false" key="LIBRARIES"/>
+			<item value="false" key="DEFINES"/>
+			<item value="false" key="COMPILEROPTIONSFORLINKER"/>
+			<item value="false" key="UNDEFINES"/>
+		</section>
+	</section>
+</section>

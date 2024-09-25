@@ -1,9 +1,31 @@
-**** Incremental Build [Di, 18 Jun 2024 12:08:25] ****
+**** Incremental Build [Fr, 16 Aug 2024 19:44:32] ****
  Project: HelloWorld
  Configuration: hwsw_codesign2019_aligned
  Build Target: Debug
 ********************************
 
-Nothing to build.
-Total time taken: 0.031 secs
-**** Build Finished [Di, 18 Jun 2024 12:08:25] ****
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -fmessage-length=0 -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/HelloWorld/main.c" -o "U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 641 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 484 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  36639	      0	      0	      0	  36639	   8f1f	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+literal	    536	      0	      0	      0	    536	    218	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+other  	   1368	   1356	   2544	    112	   5380	   1504	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+Total  	  38543	   1356	   2544	    112	  42555	   a63b	U:/HWSWCODESIGN/workspace/HelloWorld/bin/hwsw_codesign2019_aligned/Debug/HelloWorld
+
+Time taken: 141 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.031 secs
+**** Build Finished [Fr, 16 Aug 2024 19:44:34] ****

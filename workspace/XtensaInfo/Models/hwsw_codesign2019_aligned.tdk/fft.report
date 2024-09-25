@@ -1,0 +1,648 @@
+### TIE Report File
+
+
+### FLIX instruction information
+# These are the slots in each format:
+format <flix64> slots:
+    slot_0 = flix64[19:12] flix64[21:20] flix64[7:4] flix64[11:8] (index = 0)
+    slot_1 = flix64[24:24] (index = 1)
+    slot_2 = flix64[32:25] flix64[23:22] flix64[59:56] flix64[51:48] (index = 2)
+
+# These are the instructions in each slot
+slot <Inst> instructions: nop=NOP
+    FFT_CHECK_SHIFT_CONDITION FFT_DIF_CALC_LAST_STAGE 
+    FFT_DIF_CALC_SECOND_LAST_STAGE FFT_DIF_CALC_STAGE 
+    FFT_DIF_CALC_THIRD_LAST_STAGE FFT_DIT_CALC_FIRST_STAGE 
+    FFT_DIT_CALC_SECOND_STAGE FFT_DIT_CALC_STAGE FFT_DIT_CALC_THIRD_STAGE 
+    FFT_REVERSE_BITS FFT_SIMD_LOAD_INTERLEAVED FFT_SIMD_STORE 
+    FFT_SIMD_STORE_INTERLEAVED FFT_SIMD_STORE_SHUFFLED RUR.REG_K WUR.REG_K 
+slot <slot_0> instructions: nop=NOP
+    FFT_SIMD_LOAD FFT_SIMD_LOAD_SHUFFLED L16SI NOP S16I ld.vect8x16 
+    mv.vect8x16 st.vect8x16 
+slot <slot_1> instructions: nop=NOP
+    NOP 
+slot <slot_2> instructions: nop=NOP
+    FFT_SIMD_LOAD FFT_SIMD_LOAD_SHUFFLED L16SI NOP S16I ld.vect8x16 
+    mv.vect8x16 st.vect8x16 
+
+
+### Register File port information
+# These are the read and write ports for each regfile. 
+regfile AR:
+    
+        port rd0: width( 32) stage( 1) operands( {ars,0} {opnd_FFT_REVERSE_BITS_d,0} {opnd_FFT_SIMD_LOAD_INTERLEAVED_addr,0} {opnd_FFT_SIMD_LOAD_SHUFFLED_addr,0} {opnd_FFT_SIMD_LOAD_addr,0} {opnd_FFT_SIMD_STORE_INTERLEAVED_addr,0} {opnd_FFT_SIMD_STORE_SHUFFLED_addr,0} {opnd_FFT_SIMD_STORE_addr,0}) 
+        port rd1: width( 32) stage( 1 2 3) operands( {art,0} {opnd_FFT_DIF_CALC_LAST_STAGE_k,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_k,0} {opnd_FFT_DIF_CALC_STAGE_m,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_k,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_k,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_k,0} {opnd_FFT_DIT_CALC_STAGE_m,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_k,0} {opnd_FFT_REVERSE_BITS_size,0} {opnd_FFT_SIMD_LOAD_INTERLEAVED_offset,0} {opnd_FFT_SIMD_LOAD_SHUFFLED_offset,0} {opnd_FFT_SIMD_LOAD_offset,0} {opnd_FFT_SIMD_STORE_INTERLEAVED_offset,0} {opnd_FFT_SIMD_STORE_SHUFFLED_offset,0} {opnd_FFT_SIMD_STORE_offset,0} {opnd_ld.vect8x16_b,0} {opnd_st.vect8x16_b,0}) 
+        port rd2: width( 32) stage( 1) operands( {art,1}) 
+        port rd3: width( 32) stage( 1) operands( {ars,1}) 
+        port rd4: width( 32) stage( 1) operands( {ars,2} {opnd_FFT_SIMD_LOAD_SHUFFLED_offset,2} {opnd_FFT_SIMD_LOAD_offset,2}) 
+        port rd5: width( 32) stage( 1 2) operands( {art,2} {opnd_FFT_SIMD_LOAD_SHUFFLED_addr,2} {opnd_FFT_SIMD_LOAD_addr,2} {opnd_ld.vect8x16_b,2} {opnd_st.vect8x16_b,2}) 
+        port wr0: width( 32) stage( 1 2) operands( {ar0,0} {ar12,0} {ar4,0} {ar8,0} {arr,0} {ars,0} {ars_entry,0} {art,0} {opnd_FFT_REVERSE_BITS_reversed_data,0}) 
+        port wr1: width( 32) stage( 1) operands( {arr,1} {art,1}) 
+        port wr2: width( 32) stage( 1 2) operands( {arr,2} {ars,2} {art,2}) 
+regfile BR:
+    
+        port rd0: width( 1 4 8 16) stage( 1) operands( {brall,0} {bs4,0} {bs8,0} {bt,0} {opnd_FFT_DIF_CALC_LAST_STAGE_shift,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_shift,0} {opnd_FFT_DIF_CALC_STAGE_shift,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_shift,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_shift,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_shift,0} {opnd_FFT_DIT_CALC_STAGE_shift,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_shift,0}) 
+        port rd1: width( 1) stage( 1) operands( {bs,0} {opnd_FFT_DIF_CALC_LAST_STAGE_inverse,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_inverse,0} {opnd_FFT_DIF_CALC_STAGE_inverse,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_inverse,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_inverse,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_inverse,0} {opnd_FFT_DIT_CALC_STAGE_inverse,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_inverse,0}) 
+        port wr0: width( 1 16) stage( 1) operands( {br,0} {brall,0} {bt,0} {opnd_FFT_CHECK_SHIFT_CONDITION_should_shift,0}) 
+regfile vect8x16:
+    
+        port rd0: width( 128) stage( 1 2) operands( {opnd_FFT_CHECK_SHIFT_CONDITION_m_vector,0} {opnd_FFT_DIF_CALC_LAST_STAGE_real,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_real,0} {opnd_FFT_DIF_CALC_STAGE_real,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_real,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_real,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_real,0} {opnd_FFT_DIT_CALC_STAGE_real,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_real,0} {opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2,0} {opnd_FFT_SIMD_STORE_INTERLEAVED_vec2,0} {opnd_FFT_SIMD_STORE_SHUFFLED_input,0} {opnd_FFT_SIMD_STORE_data,0} {opnd_mv.vect8x16_b,0} {opnd_st.vect8x16_a,0}) 
+        port rd1: width( 128) stage( 1 2) operands( {opnd_FFT_CHECK_SHIFT_CONDITION_j_vector,0} {opnd_FFT_DIF_CALC_LAST_STAGE_imag,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_imag,0} {opnd_FFT_DIF_CALC_STAGE_imag,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_imag,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_imag,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_imag,0} {opnd_FFT_DIT_CALC_STAGE_imag,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_imag,0} {opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1,0} {opnd_FFT_SIMD_STORE_INTERLEAVED_vec1,0} {opnd_mv.vect8x16_b,2} {opnd_st.vect8x16_a,2}) 
+        port wr0: width( 128) stage( 1 2) operands( {opnd_FFT_DIF_CALC_LAST_STAGE_real,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_real,0} {opnd_FFT_DIF_CALC_STAGE_real,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_real,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_real,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_real,0} {opnd_FFT_DIT_CALC_STAGE_real,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_real,0} {opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2,0} {opnd_FFT_SIMD_LOAD_SHUFFLED_output,0} {opnd_FFT_SIMD_LOAD_output,0} {opnd_ld.vect8x16_a,0} {opnd_mv.vect8x16_a,0}) 
+        port wr1: width( 128) stage( 1 2) operands( {opnd_FFT_DIF_CALC_LAST_STAGE_imag,0} {opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_imag,0} {opnd_FFT_DIF_CALC_STAGE_imag,0} {opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_imag,0} {opnd_FFT_DIT_CALC_FIRST_STAGE_imag,0} {opnd_FFT_DIT_CALC_SECOND_STAGE_imag,0} {opnd_FFT_DIT_CALC_STAGE_imag,0} {opnd_FFT_DIT_CALC_THIRD_STAGE_imag,0} {opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1,0} {opnd_FFT_SIMD_LOAD_SHUFFLED_output,2} {opnd_FFT_SIMD_LOAD_output,2} {opnd_ld.vect8x16_a,2} {opnd_mv.vect8x16_a,2}) 
+
+
+### Register file port and state information by stage
+# These are the read and write ports for each regfile and states.
+regfile AR:
+    Port rd0 Operand ars Slot 0 Stage 1: CALLX12 CALLX8 CALLX4 ENTRY MOVSP RETW RETW.N L32E S32E ADD.N ADDI.N BEQZ.N BNEZ.N L32I.N MOV.N RET.N S32I.N ADDI ADDMI ADD SUB ADDX2 ADDX4 ADDX8 SUBX2 SUBX4 SUBX8 AND OR XOR BEQI BNEI BGEI BLTI BBCI BBSI BGEUI BLTUI BEQ BNE BGE BLT BGEU BLTU BANY BNONE BALL BNALL BBC BBS BEQZ BNEZ BGEZ BLTZ CALLX0 JX L16UI L16SI L32I L8UI LOOP LOOPNEZ LOOPGTZ MOVEQZ MOVNEZ MOVLTZ MOVGEZ RET S16I S32I S32NB S8I SSR SSL SSA8L SSA8B SLL SRC SLLI MUL16U MUL16S MULL LDDR32.P SDDR32.P MOVF MOVT IPF IHI III LICT LICW SICT SICW IDTLB PDTLB RDTLB0 RDTLB1 WDTLB IITLB PITLB RITLB0 RITLB1 WITLB CLAMPS MIN MAX MINU MAXU NSA NSAU SEXT RER WER
+    Port rd0 Operand opnd_FFT_REVERSE_BITS_d Slot 0 Stage 1: FFT_REVERSE_BITS
+    Port rd0 Operand opnd_FFT_SIMD_LOAD_INTERLEAVED_addr Slot 0 Stage 1: FFT_SIMD_LOAD_INTERLEAVED
+    Port rd0 Operand opnd_FFT_SIMD_LOAD_SHUFFLED_addr Slot 0 Stage 1: FFT_SIMD_LOAD_SHUFFLED
+    Port rd0 Operand opnd_FFT_SIMD_LOAD_addr Slot 0 Stage 1: FFT_SIMD_LOAD
+    Port rd0 Operand opnd_FFT_SIMD_STORE_INTERLEAVED_addr Slot 0 Stage 1: FFT_SIMD_STORE_INTERLEAVED
+    Port rd0 Operand opnd_FFT_SIMD_STORE_SHUFFLED_addr Slot 0 Stage 1: FFT_SIMD_STORE_SHUFFLED
+    Port rd0 Operand opnd_FFT_SIMD_STORE_addr Slot 0 Stage 1: FFT_SIMD_STORE
+    Port rd1 Operand art Slot 0 Stage 1: WSR.WINDOWBASE XSR.WINDOWBASE WSR.WINDOWSTART XSR.WINDOWSTART ADD.N ADD SUB ADDX2 ADDX4 ADDX8 SUBX2 SUBX4 SUBX8 AND OR XOR BEQ BNE BGE BLT BGEU BLTU BANY BNONE BALL BNALL BBC BBS EXTUI MOVEQZ MOVNEZ MOVLTZ MOVGEZ NEG ABS SRC SRL SRA SRAI SRLI WSR.LEND XSR.LEND WSR.LBEG XSR.LBEG WSR.SAR XSR.SAR WSR.MEMCTL XSR.MEMCTL WSR.LITBASE XSR.LITBASE WSR.PS XSR.PS MUL16U MUL16S MULL WSR.BR XSR.BR MIN MAX MINU MAXU WER
+    Port rd1 Operand art Slot 0 Stage 2: S32E S32I.N S16I S32I S32NB S8I WSR.CONFIGID0 WSR.INTENABLE XSR.INTENABLE WSR.ICOUNTLEVEL XSR.ICOUNTLEVEL SICT SICW
+    Port rd1 Operand art Slot 0 Stage 3: WSR.LCOUNT XSR.LCOUNT WSR.EPC1 XSR.EPC1 WSR.EXCSAVE1 XSR.EXCSAVE1 WSR.EPC2 XSR.EPC2 WSR.EXCSAVE2 XSR.EXCSAVE2 WSR.EPS2 XSR.EPS2 WSR.EXCVADDR XSR.EXCVADDR WSR.DEPC XSR.DEPC WSR.EXCCAUSE XSR.EXCCAUSE WSR.INTSET WSR.INTCLEAR WSR.DEBUGCAUSE XSR.DEBUGCAUSE WSR.ICOUNT XSR.ICOUNT WSR.DDR XSR.DDR WDTLB WITLB WSR.CPENABLE XSR.CPENABLE WUR.REG_K
+    Port rd1 Operand opnd_FFT_DIF_CALC_LAST_STAGE_k Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_k Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_STAGE_m Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_k Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_k Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_k Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_STAGE_m Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_k Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port rd1 Operand opnd_FFT_REVERSE_BITS_size Slot 0 Stage 1: FFT_REVERSE_BITS
+    Port rd1 Operand opnd_FFT_SIMD_LOAD_INTERLEAVED_offset Slot 0 Stage 1: FFT_SIMD_LOAD_INTERLEAVED
+    Port rd1 Operand opnd_FFT_SIMD_LOAD_SHUFFLED_offset Slot 0 Stage 1: FFT_SIMD_LOAD_SHUFFLED
+    Port rd1 Operand opnd_FFT_SIMD_LOAD_offset Slot 0 Stage 1: FFT_SIMD_LOAD
+    Port rd1 Operand opnd_FFT_SIMD_STORE_INTERLEAVED_offset Slot 0 Stage 1: FFT_SIMD_STORE_INTERLEAVED
+    Port rd1 Operand opnd_FFT_SIMD_STORE_SHUFFLED_offset Slot 0 Stage 1: FFT_SIMD_STORE_SHUFFLED
+    Port rd1 Operand opnd_FFT_SIMD_STORE_offset Slot 0 Stage 1: FFT_SIMD_STORE
+    Port rd1 Operand opnd_ld_vect8x16_b Slot 0 Stage 1: ld.vect8x16
+    Port rd1 Operand opnd_st_vect8x16_b Slot 0 Stage 1: st.vect8x16
+    Port rd2 Operand art Slot 1 Stage 1: ADD SUB ADDX2 ADDX4 ADDX8 AND OR XOR EXTUI MOVEQZ MOVNEZ MOVLTZ MOVGEZ NEG SRC SRL SRA SRAI SRLI BEQ.W18 BNE.W18 BGE.W18 BLT.W18 BGEU.W18 BLTU.W18 BANY.W18 BNONE.W18 BALL.W18 BNALL.W18 BBC.W18 BBS.W18
+    Port rd3 Operand ars Slot 1 Stage 1: MOV.N ADDI ADDMI ADD SUB ADDX2 ADDX4 ADDX8 AND OR XOR JX MOVEQZ MOVNEZ MOVLTZ MOVGEZ SSL SLL SRC SLLI SEXT BEQZ.W18 BNEZ.W18 BGEZ.W18 BLTZ.W18 BEQI.W18 BNEI.W18 BGEI.W18 BLTI.W18 BGEUI.W18 BLTUI.W18 BBCI.W18 BBSI.W18 BEQ.W18 BNE.W18 BGE.W18 BLT.W18 BGEU.W18 BLTU.W18 BANY.W18 BNONE.W18 BALL.W18 BNALL.W18 BBC.W18 BBS.W18
+    Port rd4 Operand ars Slot 2 Stage 1: ADDI.N MOV.N ADD SUB ADDX2 ADDX4 AND OR XOR L16SI S16I SEXT
+    Port rd4 Operand opnd_FFT_SIMD_LOAD_SHUFFLED_offset Slot 2 Stage 1: FFT_SIMD_LOAD_SHUFFLED
+    Port rd4 Operand opnd_FFT_SIMD_LOAD_offset Slot 2 Stage 1: FFT_SIMD_LOAD
+    Port rd5 Operand art Slot 2 Stage 1: ADD SUB ADDX2 ADDX4 AND OR XOR NEG ABS SRL SRA SRAI SRLI
+    Port rd5 Operand art Slot 2 Stage 2: S16I
+    Port rd5 Operand opnd_FFT_SIMD_LOAD_SHUFFLED_addr Slot 2 Stage 1: FFT_SIMD_LOAD_SHUFFLED
+    Port rd5 Operand opnd_FFT_SIMD_LOAD_addr Slot 2 Stage 1: FFT_SIMD_LOAD
+    Port rd5 Operand opnd_ld_vect8x16_b Slot 2 Stage 1: ld.vect8x16
+    Port rd5 Operand opnd_st_vect8x16_b Slot 2 Stage 1: st.vect8x16
+    Port wr0 Operand ar0 Slot 0 Stage 1: CALL0 CALLX0
+    Port wr0 Operand ar12 Slot 0 Stage 1: CALL12 CALLX12
+    Port wr0 Operand ar4 Slot 0 Stage 1: CALL4 CALLX4
+    Port wr0 Operand ar8 Slot 0 Stage 1: CALL8 CALLX8
+    Port wr0 Operand arr Slot 0 Stage 1: ADD.N ADDI.N ADD SUB ADDX2 ADDX4 ADDX8 SUBX2 SUBX4 SUBX8 AND OR XOR EXTUI MOVEQZ MOVNEZ MOVLTZ MOVGEZ NEG ABS SLL SRC SRL SRA SLLI SRAI SRLI MUL16U MUL16S MULL MOVF MOVT CLAMPS MIN MAX MINU MAXU SEXT RUR.REG_K
+    Port wr0 Operand ars Slot 0 Stage 1: MOVI.N LDDR32.P SDDR32.P
+    Port wr0 Operand ars_entry Slot 0 Stage 1: ENTRY
+    Port wr0 Operand art Slot 0 Stage 1: MOVSP RSR.WINDOWBASE XSR.WINDOWBASE RSR.WINDOWSTART XSR.WINDOWSTART MOV.N ADDI ADDMI MOVI RSIL RSR.LEND XSR.LEND RSR.LBEG XSR.LBEG RSR.SAR XSR.SAR RSR.MEMCTL XSR.MEMCTL RSR.LITBASE XSR.LITBASE RSR.BR XSR.BR NSA NSAU RER
+    Port wr0 Operand art Slot 0 Stage 2: L32E L32I.N L16UI L16SI L32I L32R L8UI RSR.LCOUNT XSR.LCOUNT RSR.CONFIGID0 RSR.CONFIGID1 RSR.PS XSR.PS RSR.EPC1 XSR.EPC1 RSR.EXCSAVE1 XSR.EXCSAVE1 RSR.EPC2 XSR.EPC2 RSR.EXCSAVE2 XSR.EXCSAVE2 RSR.EPS2 XSR.EPS2 RSR.EXCVADDR XSR.EXCVADDR RSR.DEPC XSR.DEPC RSR.EXCCAUSE XSR.EXCCAUSE RSR.INTERRUPT RSR.INTENABLE XSR.INTENABLE RSR.DEBUGCAUSE XSR.DEBUGCAUSE RSR.ICOUNT XSR.ICOUNT RSR.ICOUNTLEVEL XSR.ICOUNTLEVEL RSR.DDR XSR.DDR LICT LICW PDTLB RDTLB0 RDTLB1 PITLB RITLB0 RITLB1 RSR.CPENABLE XSR.CPENABLE
+    Port wr0 Operand opnd_FFT_REVERSE_BITS_reversed_data Slot 0 Stage 1: FFT_REVERSE_BITS
+    Port wr1 Operand arr Slot 1 Stage 1: ADD SUB ADDX2 ADDX4 ADDX8 AND OR XOR EXTUI MOVEQZ MOVNEZ MOVLTZ MOVGEZ NEG SLL SRC SRL SRA SLLI SRAI SRLI SEXT
+    Port wr1 Operand art Slot 1 Stage 1: MOV.N ADDI ADDMI MOVI
+    Port wr2 Operand arr Slot 2 Stage 1: ADDI.N ADD SUB ADDX2 ADDX4 AND OR XOR NEG ABS SRL SRA SRAI SRLI SEXT
+    Port wr2 Operand ars Slot 2 Stage 1: MOVI.N
+    Port wr2 Operand art Slot 2 Stage 1: MOV.N
+    Port wr2 Operand art Slot 2 Stage 2: L16SI
+regfile BR:
+    Port rd0 Operand brall Slot 0 Stage 1: RSR.BR XSR.BR
+    Port rd0 Operand bs4 Slot 0 Stage 1: ANY4 ALL4
+    Port rd0 Operand bs8 Slot 0 Stage 1: ANY8 ALL8
+    Port rd0 Operand bt Slot 0 Stage 1: ANDB ANDBC ORB ORBC XORB MOVF MOVT
+    Port rd0 Operand opnd_FFT_DIF_CALC_LAST_STAGE_shift Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port rd0 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_shift Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port rd0 Operand opnd_FFT_DIF_CALC_STAGE_shift Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port rd0 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_shift Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_shift Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_shift Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_STAGE_shift Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_shift Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port rd1 Operand bs Slot 0 Stage 1: ANDB ANDBC ORB ORBC XORB BF BT
+    Port rd1 Operand opnd_FFT_DIF_CALC_LAST_STAGE_inverse Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_inverse Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_STAGE_inverse Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_inverse Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_inverse Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_inverse Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_STAGE_inverse Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_inverse Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port wr0 Operand br Slot 0 Stage 1: ANDB ANDBC ORB ORBC XORB
+    Port wr0 Operand brall Slot 0 Stage 1: WSR.BR XSR.BR
+    Port wr0 Operand bt Slot 0 Stage 1: ANY4 ALL4 ANY8 ALL8
+    Port wr0 Operand opnd_FFT_CHECK_SHIFT_CONDITION_should_shift Slot 0 Stage 1: FFT_CHECK_SHIFT_CONDITION
+regfile vect8x16:
+    Port rd0 Operand opnd_FFT_CHECK_SHIFT_CONDITION_m_vector Slot 0 Stage 1: FFT_CHECK_SHIFT_CONDITION
+    Port rd0 Operand opnd_FFT_DIF_CALC_LAST_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port rd0 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port rd0 Operand opnd_FFT_DIF_CALC_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port rd0 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port rd0 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port rd0 Operand opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2 Slot 0 Stage 1: FFT_SIMD_LOAD_INTERLEAVED
+    Port rd0 Operand opnd_FFT_SIMD_STORE_INTERLEAVED_vec2 Slot 0 Stage 1: FFT_SIMD_STORE_INTERLEAVED
+    Port rd0 Operand opnd_FFT_SIMD_STORE_SHUFFLED_input Slot 0 Stage 1: FFT_SIMD_STORE_SHUFFLED
+    Port rd0 Operand opnd_FFT_SIMD_STORE_data Slot 0 Stage 2: FFT_SIMD_STORE
+    Port rd0 Operand opnd_mv_vect8x16_b Slot 0 Stage 1: mv.vect8x16
+    Port rd0 Operand opnd_st_vect8x16_a Slot 0 Stage 2: st.vect8x16
+    Port rd1 Operand opnd_FFT_CHECK_SHIFT_CONDITION_j_vector Slot 0 Stage 1: FFT_CHECK_SHIFT_CONDITION
+    Port rd1 Operand opnd_FFT_DIF_CALC_LAST_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port rd1 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port rd1 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port rd1 Operand opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1 Slot 0 Stage 1: FFT_SIMD_LOAD_INTERLEAVED
+    Port rd1 Operand opnd_FFT_SIMD_STORE_INTERLEAVED_vec1 Slot 0 Stage 1: FFT_SIMD_STORE_INTERLEAVED
+    Port rd1 Operand opnd_mv_vect8x16_b Slot 2 Stage 1: mv.vect8x16
+    Port rd1 Operand opnd_st_vect8x16_a Slot 2 Stage 2: st.vect8x16
+    Port wr0 Operand opnd_FFT_DIF_CALC_LAST_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port wr0 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port wr0 Operand opnd_FFT_DIF_CALC_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port wr0 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_real Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port wr0 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port wr0 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port wr0 Operand opnd_FFT_DIT_CALC_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port wr0 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_real Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port wr0 Operand opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2 Slot 0 Stage 2: FFT_SIMD_LOAD_INTERLEAVED
+    Port wr0 Operand opnd_FFT_SIMD_LOAD_SHUFFLED_output Slot 0 Stage 2: FFT_SIMD_LOAD_SHUFFLED
+    Port wr0 Operand opnd_FFT_SIMD_LOAD_output Slot 0 Stage 2: FFT_SIMD_LOAD
+    Port wr0 Operand opnd_ld_vect8x16_a Slot 0 Stage 2: ld.vect8x16
+    Port wr0 Operand opnd_mv_vect8x16_a Slot 0 Stage 1: mv.vect8x16
+    Port wr1 Operand opnd_FFT_DIF_CALC_LAST_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_LAST_STAGE
+    Port wr1 Operand opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_SECOND_LAST_STAGE
+    Port wr1 Operand opnd_FFT_DIF_CALC_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_STAGE
+    Port wr1 Operand opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_imag Slot 0 Stage 1: FFT_DIF_CALC_THIRD_LAST_STAGE
+    Port wr1 Operand opnd_FFT_DIT_CALC_FIRST_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_FIRST_STAGE
+    Port wr1 Operand opnd_FFT_DIT_CALC_SECOND_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_SECOND_STAGE
+    Port wr1 Operand opnd_FFT_DIT_CALC_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_STAGE
+    Port wr1 Operand opnd_FFT_DIT_CALC_THIRD_STAGE_imag Slot 0 Stage 1: FFT_DIT_CALC_THIRD_STAGE
+    Port wr1 Operand opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1 Slot 0 Stage 2: FFT_SIMD_LOAD_INTERLEAVED
+    Port wr1 Operand opnd_FFT_SIMD_LOAD_SHUFFLED_output Slot 2 Stage 2: FFT_SIMD_LOAD_SHUFFLED
+    Port wr1 Operand opnd_FFT_SIMD_LOAD_output Slot 2 Stage 2: FFT_SIMD_LOAD
+    Port wr1 Operand opnd_ld_vect8x16_a Slot 2 Stage 2: ld.vect8x16
+    Port wr1 Operand opnd_mv_vect8x16_a Slot 2 Stage 1: mv.vect8x16
+states:
+    State XTSYNC (use) Slot 0 Stage 1: RSYNC
+    State XTSYNC (use) Slot 0 Stage 2: ESYNC
+    State XTSYNC (use) Slot 0 Stage 3: DSYNC
+    State XTSYNC (def) Slot 0 Stage 3: WSR.LCOUNT
+    State XTSYNC (def) Slot 0 Stage 5: IDTLB
+    State EPC1 (use) Slot 0 Stage 1: RFE
+    State EPC1 (use) Slot 0 Stage 2: RSR.EPC1
+    State EPC1 (def) Slot 0 Stage 3: WSR.EPC1
+    State EPC2 (use) Slot 0 Stage 2: RSR.EPC2
+    State EPC2 (use) Slot 0 Stage 1: RFI
+    State EPC2 (def) Slot 0 Stage 3: WSR.EPC2
+    State EXCSAVE1 (use) Slot 0 Stage 2: RSR.EXCSAVE1
+    State EXCSAVE1 (def) Slot 0 Stage 3: WSR.EXCSAVE1
+    State EXCSAVE2 (use) Slot 0 Stage 2: RSR.EXCSAVE2
+    State EXCSAVE2 (def) Slot 0 Stage 3: WSR.EXCSAVE2
+    State EPS2 (use) Slot 0 Stage 2: RSR.EPS2
+    State EPS2 (use) Slot 0 Stage 1: RFI
+    State EPS2 (def) Slot 0 Stage 3: WSR.EPS2
+    State EXCCAUSE (use) Slot 0 Stage 2: RSR.EXCCAUSE
+    State EXCCAUSE (def) Slot 0 Stage 3: WSR.EXCCAUSE
+    State PSINTLEVEL (use) Slot 0 Stage 2: RSR.PS
+    State PSINTLEVEL (use) Slot 0 Stage 1: RSIL
+    State PSINTLEVEL (def) Slot 0 Stage 2: RSIL
+    State PSUM (use) Slot 0 Stage 1: RSIL
+    State PSUM (use) Slot 0 Stage 2: RSR.PS
+    State PSUM (def) Slot 0 Stage 2: RFI
+    State PSUM (def) Slot 0 Stage 3: WSR.PS
+    State PSWOE (use) Slot 0 Stage 1: ENTRY
+    State PSWOE (use) Slot 0 Stage 0: ENTRY
+    State PSWOE (use) Slot 0 Stage 2: RSR.PS
+    State PSWOE (def) Slot 0 Stage 1: RFI
+    State PSWOE (def) Slot 0 Stage 3: WSR.PS
+    State PSEXCM (use) Slot 0 Stage 1: ENTRY
+    State PSEXCM (use) Slot 0 Stage 0: ENTRY
+    State PSEXCM (use) Slot 0 Stage 2: RSR.PS
+    State PSEXCM (def) Slot 0 Stage 1: RFE
+    State DEPC (use) Slot 0 Stage 1: RFDE
+    State DEPC (use) Slot 0 Stage 2: RSR.DEPC
+    State DEPC (def) Slot 0 Stage 3: WSR.DEPC
+    State EXCVADDR (use) Slot 0 Stage 2: RSR.EXCVADDR
+    State EXCVADDR (def) Slot 0 Stage 3: WSR.EXCVADDR
+    State WindowBase (use) Slot 0 Stage 0: ENTRY
+    State WindowBase (use) Slot 0 Stage 1: MOVSP
+    State WindowBase (def) Slot 0 Stage 0: ENTRY
+    State WindowBase (def) Slot 0 Stage 1: RETW
+    State WindowStart (use) Slot 0 Stage 0: ENTRY
+    State WindowStart (use) Slot 0 Stage 1: MOVSP
+    State WindowStart (def) Slot 0 Stage 0: ENTRY
+    State WindowStart (def) Slot 0 Stage 1: RETW
+    State PSCALLINC (use) Slot 0 Stage 1: RSIL
+    State PSCALLINC (use) Slot 0 Stage 0: ENTRY
+    State PSCALLINC (use) Slot 0 Stage 2: RSR.PS
+    State PSCALLINC (def) Slot 0 Stage 1: CALL12
+    State PSOWB (use) Slot 0 Stage 1: RFWO
+    State PSOWB (use) Slot 0 Stage 2: RSR.PS
+    State PSOWB (def) Slot 0 Stage 2: RFI
+    State PSOWB (def) Slot 0 Stage 3: WSR.PS
+    State LBEG (use) Slot 0 Stage 1: RSR.LBEG
+    State LBEG (def) Slot 0 Stage 1: LOOP
+    State LEND (use) Slot 0 Stage 1: RSR.LEND
+    State LEND (def) Slot 0 Stage 1: LOOP
+    State SAR (use) Slot 0 Stage 1: SLL
+    State SAR (use) Slot 1 Stage 1: SLL
+    State SAR (use) Slot 2 Stage 1: SRL
+    State SAR (def) Slot 0 Stage 1: SSR
+    State SAR (def) Slot 1 Stage 1: SSL
+    State InOCDMode (use) Slot 0 Stage 1: LDDR32.P
+    State InOCDMode (def) Slot 0 Stage 3: RFI
+    State InOCDMode (def) Slot 0 Stage 1: RFDD
+    State INTENABLE (use) Slot 0 Stage 2: RSR.INTENABLE
+    State INTENABLE (def) Slot 0 Stage 2: WSR.INTENABLE
+    State ICOUNTLEVEL (use) Slot 0 Stage 2: RSR.ICOUNTLEVEL
+    State ICOUNTLEVEL (def) Slot 0 Stage 2: WSR.ICOUNTLEVEL
+    State DEBUGCAUSE (use) Slot 0 Stage 2: RSR.DEBUGCAUSE
+    State DEBUGCAUSE (def) Slot 0 Stage 3: WSR.DEBUGCAUSE
+    State DBNUM (use) Slot 0 Stage 2: RSR.DEBUGCAUSE
+    State DBNUM (def) Slot 0 Stage 3: WSR.DEBUGCAUSE
+    State CPENABLE (use) Slot 0 Stage 2: RSR.CPENABLE
+    State CPENABLE (def) Slot 0 Stage 3: WSR.CPENABLE
+    State REG_K (use) Slot 0 Stage 1: RUR.REG_K
+    State REG_K (def) Slot 0 Stage 3: WUR.REG_K
+
+
+### Register File port instruction information
+# These are the read and write ports for each regfile. 
+regfile AR:
+  regfile AR: port rd0: slot #0 Inst
+    ADD<ars> ADDI<ars> ADDMI<ars> ADDX2<ars> ADDX4<ars> ADDX8<ars> AND<ars> 
+    BALL<ars> BANY<ars> BBC<ars> BBCI<ars> BBS<ars> BBSI<ars> BEQ<ars> 
+    BEQI<ars> BEQZ<ars> BGE<ars> BGEI<ars> BGEU<ars> BGEUI<ars> BGEZ<ars> 
+    BLT<ars> BLTI<ars> BLTU<ars> BLTUI<ars> BLTZ<ars> BNALL<ars> BNE<ars> 
+    BNEI<ars> BNEZ<ars> BNONE<ars> CALLX0<ars> CALLX12<ars> CALLX4<ars> 
+    CALLX8<ars> CLAMPS<ars> ENTRY<ars> 
+    FFT_REVERSE_BITS<opnd_FFT_REVERSE_BITS_d> 
+    FFT_SIMD_LOAD_INTERLEAVED<opnd_FFT_SIMD_LOAD_INTERLEAVED_addr> 
+    FFT_SIMD_STORE<opnd_FFT_SIMD_STORE_addr> 
+    FFT_SIMD_STORE_INTERLEAVED<opnd_FFT_SIMD_STORE_INTERLEAVED_addr> 
+    FFT_SIMD_STORE_SHUFFLED<opnd_FFT_SIMD_STORE_SHUFFLED_addr> IDTLB<ars> 
+    IHI<ars> III<ars> IITLB<ars> IPF<ars> JX<ars> L16SI<ars> L16UI<ars> 
+    L32E<ars> L32I<ars> L8UI<ars> LDDR32.P<ars> LICT<ars> LICW<ars> 
+    LOOP<ars> LOOPGTZ<ars> LOOPNEZ<ars> MAX<ars> MAXU<ars> MIN<ars> 
+    MINU<ars> MOVEQZ<ars> MOVF<ars> MOVGEZ<ars> MOVLTZ<ars> MOVNEZ<ars> 
+    MOVSP<ars> MOVT<ars> MUL16S<ars> MUL16U<ars> MULL<ars> NSA<ars> 
+    NSAU<ars> OR<ars> PDTLB<ars> PITLB<ars> RDTLB0<ars> RDTLB1<ars> 
+    RER<ars> RET<ars> RETW<ars> RITLB0<ars> RITLB1<ars> S16I<ars> S32E<ars> 
+    S32I<ars> S32NB<ars> S8I<ars> SDDR32.P<ars> SEXT<ars> SICT<ars> 
+    SICW<ars> SLL<ars> SLLI<ars> SRC<ars> SSA8B<ars> SSA8L<ars> SSL<ars> 
+    SSR<ars> SUB<ars> SUBX2<ars> SUBX4<ars> SUBX8<ars> WDTLB<ars> WER<ars> 
+    WITLB<ars> XOR<ars> 
+  regfile AR: port rd0: slot #0 Inst16a
+    ADD.N<ars> ADDI.N<ars> L32I.N<ars> S32I.N<ars> 
+  regfile AR: port rd0: slot #0 Inst16b
+    BEQZ.N<ars> BNEZ.N<ars> MOV.N<ars> RET.N<ars> RETW.N<ars> 
+  regfile AR: port rd0: slot #0 xt_flix64_slot0
+    ADD<ars> ADDI<ars> ADDMI<ars> ADDX2<ars> ADDX4<ars> ADDX8<ars> AND<ars> 
+    CLAMPS<ars> L16SI<ars> L16UI<ars> L32I<ars> L8UI<ars> MAX<ars> 
+    MAXU<ars> MIN<ars> MINU<ars> MOV.N<ars> MOVEQZ<ars> MOVGEZ<ars> 
+    MOVLTZ<ars> MOVNEZ<ars> NSA<ars> NSAU<ars> OR<ars> S16I<ars> S32I<ars> 
+    S8I<ars> SEXT<ars> SLL<ars> SLLI<ars> SRC<ars> SSA8B<ars> SSA8L<ars> 
+    SSL<ars> SSR<ars> SUB<ars> SUBX2<ars> SUBX4<ars> SUBX8<ars> XOR<ars> 
+  regfile AR: port rd0: slot #0 xt_flix64_slot0
+    ADD<ars> ADDI<ars> ADDMI<ars> ADDX2<ars> ADDX4<ars> ADDX8<ars> AND<ars> 
+    CLAMPS<ars> L16SI<ars> L16UI<ars> L32I<ars> L8UI<ars> MAX<ars> 
+    MAXU<ars> MIN<ars> MINU<ars> MOV.N<ars> MOVEQZ<ars> MOVGEZ<ars> 
+    MOVLTZ<ars> MOVNEZ<ars> NSA<ars> NSAU<ars> OR<ars> S16I<ars> S32I<ars> 
+    S8I<ars> SEXT<ars> SLL<ars> SLLI<ars> SRC<ars> SSA8B<ars> SSA8L<ars> 
+    SSL<ars> SSR<ars> SUB<ars> SUBX2<ars> SUBX4<ars> SUBX8<ars> XOR<ars> 
+  regfile AR: port rd0: slot #0 slot_0
+    FFT_SIMD_LOAD<opnd_FFT_SIMD_LOAD_addr> 
+    FFT_SIMD_LOAD_SHUFFLED<opnd_FFT_SIMD_LOAD_SHUFFLED_addr> L16SI<ars> 
+    S16I<ars> 
+  regfile AR: port rd1: slot #0 Inst
+    ABS<art> ADD<art> ADDX2<art> ADDX4<art> ADDX8<art> AND<art> BALL<art> 
+    BANY<art> BBC<art> BBS<art> BEQ<art> BGE<art> BGEU<art> BLT<art> 
+    BLTU<art> BNALL<art> BNE<art> BNONE<art> EXTUI<art> 
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_k> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_k> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_m> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_k> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_k> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_k> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_m> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_k> 
+    FFT_REVERSE_BITS<opnd_FFT_REVERSE_BITS_size> 
+    FFT_SIMD_LOAD_INTERLEAVED<opnd_FFT_SIMD_LOAD_INTERLEAVED_offset> 
+    FFT_SIMD_STORE<opnd_FFT_SIMD_STORE_offset> 
+    FFT_SIMD_STORE_INTERLEAVED<opnd_FFT_SIMD_STORE_INTERLEAVED_offset> 
+    FFT_SIMD_STORE_SHUFFLED<opnd_FFT_SIMD_STORE_SHUFFLED_offset> MAX<art> 
+    MAXU<art> MIN<art> MINU<art> MOVEQZ<art> MOVGEZ<art> MOVLTZ<art> 
+    MOVNEZ<art> MUL16S<art> MUL16U<art> MULL<art> NEG<art> OR<art> 
+    S16I<art> S32E<art> S32I<art> S32NB<art> S8I<art> SICT<art> SICW<art> 
+    SRA<art> SRAI<art> SRC<art> SRL<art> SRLI<art> SUB<art> SUBX2<art> 
+    SUBX4<art> SUBX8<art> WDTLB<art> WER<art> WITLB<art> WSR.BR<art> 
+    WSR.CONFIGID0<art> WSR.CPENABLE<art> WSR.DDR<art> WSR.DEBUGCAUSE<art> 
+    WSR.DEPC<art> WSR.EPC1<art> WSR.EPC2<art> WSR.EPS2<art> 
+    WSR.EXCCAUSE<art> WSR.EXCSAVE1<art> WSR.EXCSAVE2<art> WSR.EXCVADDR<art> 
+    WSR.ICOUNT<art> WSR.ICOUNTLEVEL<art> WSR.INTCLEAR<art> 
+    WSR.INTENABLE<art> WSR.INTSET<art> WSR.LBEG<art> WSR.LCOUNT<art> 
+    WSR.LEND<art> WSR.LITBASE<art> WSR.MEMCTL<art> WSR.PS<art> WSR.SAR<art> 
+    WSR.WINDOWBASE<art> WSR.WINDOWSTART<art> WUR.REG_K<art> XOR<art> 
+    XSR.BR<art> XSR.CPENABLE<art> XSR.DDR<art> XSR.DEBUGCAUSE<art> 
+    XSR.DEPC<art> XSR.EPC1<art> XSR.EPC2<art> XSR.EPS2<art> 
+    XSR.EXCCAUSE<art> XSR.EXCSAVE1<art> XSR.EXCSAVE2<art> XSR.EXCVADDR<art> 
+    XSR.ICOUNT<art> XSR.ICOUNTLEVEL<art> XSR.INTENABLE<art> XSR.LBEG<art> 
+    XSR.LCOUNT<art> XSR.LEND<art> XSR.LITBASE<art> XSR.MEMCTL<art> 
+    XSR.PS<art> XSR.SAR<art> XSR.WINDOWBASE<art> XSR.WINDOWSTART<art> 
+  regfile AR: port rd1: slot #0 Inst16a
+    ADD.N<art> S32I.N<art> 
+  regfile AR: port rd1: slot #0 xt_flix64_slot0
+    ABS<art> ADD<art> ADDX2<art> ADDX4<art> ADDX8<art> AND<art> EXTUI<art> 
+    MAX<art> MAXU<art> MIN<art> MINU<art> MOVEQZ<art> MOVGEZ<art> 
+    MOVLTZ<art> MOVNEZ<art> NEG<art> OR<art> S16I<art> S32I<art> S8I<art> 
+    SRA<art> SRAI<art> SRC<art> SRL<art> SRLI<art> SUB<art> SUBX2<art> 
+    SUBX4<art> SUBX8<art> XOR<art> 
+  regfile AR: port rd1: slot #0 xt_flix64_slot0
+    ABS<art> ADD<art> ADDX2<art> ADDX4<art> ADDX8<art> AND<art> EXTUI<art> 
+    MAX<art> MAXU<art> MIN<art> MINU<art> MOVEQZ<art> MOVGEZ<art> 
+    MOVLTZ<art> MOVNEZ<art> NEG<art> OR<art> S16I<art> S32I<art> S8I<art> 
+    SRA<art> SRAI<art> SRC<art> SRL<art> SRLI<art> SUB<art> SUBX2<art> 
+    SUBX4<art> SUBX8<art> XOR<art> 
+  regfile AR: port rd1: slot #0 slot_0
+    FFT_SIMD_LOAD<opnd_FFT_SIMD_LOAD_offset> 
+    FFT_SIMD_LOAD_SHUFFLED<opnd_FFT_SIMD_LOAD_SHUFFLED_offset> S16I<art> 
+    ld.vect8x16<opnd_ld.vect8x16_b> st.vect8x16<opnd_st.vect8x16_b> 
+  regfile AR: port rd2: slot #1 xt_flix64_slot1
+    ADD<art> ADDX2<art> ADDX4<art> ADDX8<art> AND<art> EXTUI<art> 
+    MOVEQZ<art> MOVGEZ<art> MOVLTZ<art> MOVNEZ<art> NEG<art> OR<art> 
+    SRA<art> SRAI<art> SRC<art> SRL<art> SRLI<art> SUB<art> XOR<art> 
+  regfile AR: port rd2: slot #1 xt_flix64_slot3
+    BALL.W18<art> BANY.W18<art> BBC.W18<art> BBS.W18<art> BEQ.W18<art> 
+    BGE.W18<art> BGEU.W18<art> BLT.W18<art> BLTU.W18<art> BNALL.W18<art> 
+    BNE.W18<art> BNONE.W18<art> 
+  regfile AR: port rd3: slot #1 xt_flix64_slot1
+    ADD<ars> ADDI<ars> ADDMI<ars> ADDX2<ars> ADDX4<ars> ADDX8<ars> AND<ars> 
+    JX<ars> MOV.N<ars> MOVEQZ<ars> MOVGEZ<ars> MOVLTZ<ars> MOVNEZ<ars> 
+    OR<ars> SEXT<ars> SLL<ars> SLLI<ars> SRC<ars> SSL<ars> SUB<ars> 
+    XOR<ars> 
+  regfile AR: port rd3: slot #1 xt_flix64_slot3
+    BALL.W18<ars> BANY.W18<ars> BBC.W18<ars> BBCI.W18<ars> BBS.W18<ars> 
+    BBSI.W18<ars> BEQ.W18<ars> BEQI.W18<ars> BEQZ.W18<ars> BGE.W18<ars> 
+    BGEI.W18<ars> BGEU.W18<ars> BGEUI.W18<ars> BGEZ.W18<ars> BLT.W18<ars> 
+    BLTI.W18<ars> BLTU.W18<ars> BLTUI.W18<ars> BLTZ.W18<ars> BNALL.W18<ars> 
+    BNE.W18<ars> BNEI.W18<ars> BNEZ.W18<ars> BNONE.W18<ars> 
+  regfile AR: port rd4: slot #2 xt_flix64_slot2
+    ADD<ars> ADDI.N<ars> ADDX2<ars> ADDX4<ars> AND<ars> MOV.N<ars> OR<ars> 
+    SEXT<ars> SUB<ars> XOR<ars> 
+  regfile AR: port rd4: slot #2 slot_2
+    FFT_SIMD_LOAD<opnd_FFT_SIMD_LOAD_offset> 
+    FFT_SIMD_LOAD_SHUFFLED<opnd_FFT_SIMD_LOAD_SHUFFLED_offset> L16SI<ars> 
+    S16I<ars> 
+  regfile AR: port rd5: slot #2 xt_flix64_slot2
+    ABS<art> ADD<art> ADDX2<art> ADDX4<art> AND<art> NEG<art> OR<art> 
+    SRA<art> SRAI<art> SRL<art> SRLI<art> SUB<art> XOR<art> 
+  regfile AR: port rd5: slot #2 slot_2
+    FFT_SIMD_LOAD<opnd_FFT_SIMD_LOAD_addr> 
+    FFT_SIMD_LOAD_SHUFFLED<opnd_FFT_SIMD_LOAD_SHUFFLED_addr> S16I<art> 
+    ld.vect8x16<opnd_ld.vect8x16_b> st.vect8x16<opnd_st.vect8x16_b> 
+  regfile AR: port wr0: slot #0 Inst
+    ABS<arr> ADD<arr> ADDI<art> ADDMI<art> ADDX2<arr> ADDX4<arr> ADDX8<arr> 
+    AND<arr> CALL0<ar0> CALL12<ar12> CALL4<ar4> CALL8<ar8> CALLX0<ar0> 
+    CALLX12<ar12> CALLX4<ar4> CALLX8<ar8> CLAMPS<arr> ENTRY<ars> 
+    ENTRY<ars_entry> EXTUI<arr> 
+    FFT_REVERSE_BITS<opnd_FFT_REVERSE_BITS_reversed_data> L16SI<art> 
+    L16UI<art> L32E<art> L32I<art> L32R<art> L8UI<art> LDDR32.P<ars> 
+    LICT<art> LICW<art> MAX<arr> MAXU<arr> MIN<arr> MINU<arr> MOVEQZ<arr> 
+    MOVF<arr> MOVGEZ<arr> MOVI<art> MOVLTZ<arr> MOVNEZ<arr> MOVSP<art> 
+    MOVT<arr> MUL16S<arr> MUL16U<arr> MULL<arr> NEG<arr> NSA<art> NSAU<art> 
+    OR<arr> PDTLB<art> PITLB<art> RDTLB0<art> RDTLB1<art> RER<art> 
+    RITLB0<art> RITLB1<art> RSIL<art> RSR.BR<art> RSR.CONFIGID0<art> 
+    RSR.CONFIGID1<art> RSR.CPENABLE<art> RSR.DDR<art> RSR.DEBUGCAUSE<art> 
+    RSR.DEPC<art> RSR.EPC1<art> RSR.EPC2<art> RSR.EPS2<art> 
+    RSR.EXCCAUSE<art> RSR.EXCSAVE1<art> RSR.EXCSAVE2<art> RSR.EXCVADDR<art> 
+    RSR.ICOUNT<art> RSR.ICOUNTLEVEL<art> RSR.INTENABLE<art> 
+    RSR.INTERRUPT<art> RSR.LBEG<art> RSR.LCOUNT<art> RSR.LEND<art> 
+    RSR.LITBASE<art> RSR.MEMCTL<art> RSR.PS<art> RSR.SAR<art> 
+    RSR.WINDOWBASE<art> RSR.WINDOWSTART<art> RUR.REG_K<arr> SDDR32.P<ars> 
+    SEXT<arr> SLL<arr> SLLI<arr> SRA<arr> SRAI<arr> SRC<arr> SRL<arr> 
+    SRLI<arr> SUB<arr> SUBX2<arr> SUBX4<arr> SUBX8<arr> XOR<arr> 
+    XSR.BR<art> XSR.CPENABLE<art> XSR.DDR<art> XSR.DEBUGCAUSE<art> 
+    XSR.DEPC<art> XSR.EPC1<art> XSR.EPC2<art> XSR.EPS2<art> 
+    XSR.EXCCAUSE<art> XSR.EXCSAVE1<art> XSR.EXCSAVE2<art> XSR.EXCVADDR<art> 
+    XSR.ICOUNT<art> XSR.ICOUNTLEVEL<art> XSR.INTENABLE<art> XSR.LBEG<art> 
+    XSR.LCOUNT<art> XSR.LEND<art> XSR.LITBASE<art> XSR.MEMCTL<art> 
+    XSR.PS<art> XSR.SAR<art> XSR.WINDOWBASE<art> XSR.WINDOWSTART<art> 
+  regfile AR: port wr0: slot #0 Inst16a
+    ADD.N<arr> ADDI.N<arr> L32I.N<art> 
+  regfile AR: port wr0: slot #0 Inst16b
+    MOV.N<art> MOVI.N<ars> 
+  regfile AR: port wr0: slot #0 xt_flix64_slot0
+    ABS<arr> ADD<arr> ADDI<art> ADDMI<art> ADDX2<arr> ADDX4<arr> ADDX8<arr> 
+    AND<arr> CLAMPS<arr> EXTUI<arr> L16SI<art> L16UI<art> L32I<art> 
+    L32R<art> L8UI<art> MAX<arr> MAXU<arr> MIN<arr> MINU<arr> MOV.N<art> 
+    MOVEQZ<arr> MOVGEZ<arr> MOVI<art> MOVLTZ<arr> MOVNEZ<arr> NEG<arr> 
+    NSA<art> NSAU<art> OR<arr> SEXT<arr> SLL<arr> SLLI<arr> SRA<arr> 
+    SRAI<arr> SRC<arr> SRL<arr> SRLI<arr> SUB<arr> SUBX2<arr> SUBX4<arr> 
+    SUBX8<arr> XOR<arr> 
+  regfile AR: port wr0: slot #0 xt_flix64_slot0
+    ABS<arr> ADD<arr> ADDI<art> ADDMI<art> ADDX2<arr> ADDX4<arr> ADDX8<arr> 
+    AND<arr> CLAMPS<arr> EXTUI<arr> L16SI<art> L16UI<art> L32I<art> 
+    L32R<art> L8UI<art> MAX<arr> MAXU<arr> MIN<arr> MINU<arr> MOV.N<art> 
+    MOVEQZ<arr> MOVGEZ<arr> MOVI<art> MOVLTZ<arr> MOVNEZ<arr> NEG<arr> 
+    NSA<art> NSAU<art> OR<arr> SEXT<arr> SLL<arr> SLLI<arr> SRA<arr> 
+    SRAI<arr> SRC<arr> SRL<arr> SRLI<arr> SUB<arr> SUBX2<arr> SUBX4<arr> 
+    SUBX8<arr> XOR<arr> 
+  regfile AR: port wr0: slot #0 slot_0
+    L16SI<art> 
+  regfile AR: port wr1: slot #1 xt_flix64_slot1
+    ADD<arr> ADDI<art> ADDMI<art> ADDX2<arr> ADDX4<arr> ADDX8<arr> AND<arr> 
+    EXTUI<arr> MOV.N<art> MOVEQZ<arr> MOVGEZ<arr> MOVI<art> MOVLTZ<arr> 
+    MOVNEZ<arr> NEG<arr> OR<arr> SEXT<arr> SLL<arr> SLLI<arr> SRA<arr> 
+    SRAI<arr> SRC<arr> SRL<arr> SRLI<arr> SUB<arr> XOR<arr> 
+  regfile AR: port wr2: slot #2 xt_flix64_slot2
+    ABS<arr> ADD<arr> ADDI.N<arr> ADDX2<arr> ADDX4<arr> AND<arr> MOV.N<art> 
+    MOVI.N<ars> NEG<arr> OR<arr> SEXT<arr> SRA<arr> SRAI<arr> SRL<arr> 
+    SRLI<arr> SUB<arr> XOR<arr> 
+  regfile AR: port wr2: slot #2 slot_2
+    L16SI<art> 
+regfile BR:
+  regfile BR: port rd0: slot #0 Inst
+    ALL4<bs4> ALL8<bs8> ANDB<bt> ANDBC<bt> ANY4<bs4> ANY8<bs8> 
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_shift> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_shift> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_shift> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_shift> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_shift> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_shift> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_shift> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_shift> MOVF<bt> 
+    MOVT<bt> ORB<bt> ORBC<bt> RSR.BR<brall> XORB<bt> XSR.BR<brall> 
+  regfile BR: port rd1: slot #0 Inst
+    ANDB<bs> ANDBC<bs> BF<bs> BT<bs> 
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_inverse> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_inverse> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_inverse> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_inverse> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_inverse> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_inverse> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_inverse> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_inverse> ORB<bs> 
+    ORBC<bs> XORB<bs> 
+  regfile BR: port wr0: slot #0 Inst
+    ALL4<bt> ALL8<bt> ANDB<br> ANDBC<br> ANY4<bt> ANY8<bt> 
+    FFT_CHECK_SHIFT_CONDITION<opnd_FFT_CHECK_SHIFT_CONDITION_should_shift> 
+    ORB<br> ORBC<br> WSR.BR<brall> XORB<br> XSR.BR<brall> 
+regfile vect8x16:
+  regfile vect8x16: port rd0: slot #0 Inst
+    FFT_CHECK_SHIFT_CONDITION<opnd_FFT_CHECK_SHIFT_CONDITION_m_vector> 
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_real> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_real> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_real> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_real> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_real> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_real> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_real> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_real> 
+    FFT_SIMD_LOAD_INTERLEAVED<opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2> 
+    FFT_SIMD_STORE<opnd_FFT_SIMD_STORE_data> 
+    FFT_SIMD_STORE_INTERLEAVED<opnd_FFT_SIMD_STORE_INTERLEAVED_vec2> 
+    FFT_SIMD_STORE_SHUFFLED<opnd_FFT_SIMD_STORE_SHUFFLED_input> 
+  regfile vect8x16: port rd0: slot #0 slot_0
+    mv.vect8x16<opnd_mv.vect8x16_b> st.vect8x16<opnd_st.vect8x16_a> 
+  regfile vect8x16: port rd1: slot #0 Inst
+    FFT_CHECK_SHIFT_CONDITION<opnd_FFT_CHECK_SHIFT_CONDITION_j_vector> 
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_imag> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_imag> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_imag> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_imag> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_imag> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_imag> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_imag> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_imag> 
+    FFT_SIMD_LOAD_INTERLEAVED<opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1> 
+    FFT_SIMD_STORE_INTERLEAVED<opnd_FFT_SIMD_STORE_INTERLEAVED_vec1> 
+  regfile vect8x16: port rd1: slot #2 slot_2
+    mv.vect8x16<opnd_mv.vect8x16_b> st.vect8x16<opnd_st.vect8x16_a> 
+  regfile vect8x16: port wr0: slot #0 Inst
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_real> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_real> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_real> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_real> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_real> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_real> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_real> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_real> 
+    FFT_SIMD_LOAD_INTERLEAVED<opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2> 
+  regfile vect8x16: port wr0: slot #0 slot_0
+    FFT_SIMD_LOAD<opnd_FFT_SIMD_LOAD_output> 
+    FFT_SIMD_LOAD_SHUFFLED<opnd_FFT_SIMD_LOAD_SHUFFLED_output> 
+    ld.vect8x16<opnd_ld.vect8x16_a> mv.vect8x16<opnd_mv.vect8x16_a> 
+  regfile vect8x16: port wr1: slot #0 Inst
+    FFT_DIF_CALC_LAST_STAGE<opnd_FFT_DIF_CALC_LAST_STAGE_imag> 
+    FFT_DIF_CALC_SECOND_LAST_STAGE<opnd_FFT_DIF_CALC_SECOND_LAST_STAGE_imag> 
+    FFT_DIF_CALC_STAGE<opnd_FFT_DIF_CALC_STAGE_imag> 
+    FFT_DIF_CALC_THIRD_LAST_STAGE<opnd_FFT_DIF_CALC_THIRD_LAST_STAGE_imag> 
+    FFT_DIT_CALC_FIRST_STAGE<opnd_FFT_DIT_CALC_FIRST_STAGE_imag> 
+    FFT_DIT_CALC_SECOND_STAGE<opnd_FFT_DIT_CALC_SECOND_STAGE_imag> 
+    FFT_DIT_CALC_STAGE<opnd_FFT_DIT_CALC_STAGE_imag> 
+    FFT_DIT_CALC_THIRD_STAGE<opnd_FFT_DIT_CALC_THIRD_STAGE_imag> 
+    FFT_SIMD_LOAD_INTERLEAVED<opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1> 
+  regfile vect8x16: port wr1: slot #2 slot_2
+    FFT_SIMD_LOAD<opnd_FFT_SIMD_LOAD_output> 
+    FFT_SIMD_LOAD_SHUFFLED<opnd_FFT_SIMD_LOAD_SHUFFLED_output> 
+    ld.vect8x16<opnd_ld.vect8x16_a> mv.vect8x16<opnd_mv.vect8x16_a> 
+
+
+### Shared function information
+# These are the stages in which the shared function is scheduled,
+# listed for each instruction that uses this shared function.
+shared function calc_addr usage:
+    in semantic FFT_SIMD_LOAD_SHUFFLED : 1
+    in semantic FFT_SIMD_STORE_SHUFFLED : 1
+    in semantic FFT_SIMD_LOAD : 1
+    in semantic FFT_SIMD_STORE : 1
+    in semantic FFT_SIMD_LOAD_INTERLEAVED : 1
+    in semantic FFT_SIMD_STORE_INTERLEAVED : 1
+shared function calc_4_twiddle_factors usage:
+    in semantic FFT_DIT_CALC_FIRST_STAGE : 1
+    in semantic FFT_DIT_CALC_SECOND_STAGE : 1
+    in semantic FFT_DIT_CALC_THIRD_STAGE : 1
+    in semantic FFT_DIF_CALC_THIRD_LAST_STAGE : 1
+    in semantic FFT_DIF_CALC_SECOND_LAST_STAGE : 1
+    in semantic FFT_DIF_CALC_LAST_STAGE : 1
+    in semantic FFT_DIT_CALC_STAGE : 1
+    in semantic FFT_DIF_CALC_STAGE : 1
+shared function calc_4_butterflies_dif usage:
+    in semantic FFT_DIF_CALC_THIRD_LAST_STAGE : 1
+    in semantic FFT_DIF_CALC_SECOND_LAST_STAGE : 1
+    in semantic FFT_DIF_CALC_LAST_STAGE : 1
+    in semantic FFT_DIF_CALC_STAGE : 1
+shared function calc_4_butterflies_dit usage:
+    in semantic FFT_DIT_CALC_FIRST_STAGE : 1
+    in semantic FFT_DIT_CALC_SECOND_STAGE : 1
+    in semantic FFT_DIT_CALC_THIRD_STAGE : 1
+    in semantic FFT_DIT_CALC_STAGE : 1
+
+
+### Load/Store unit information
+Load/Store unit used in slot 0: 0
+Load/Store unit used in slot 1:
+Load/Store unit used in slot 2: 1
+#The following opcodes in format x24, slot Inst, index 0 use Load/Store unit 0 
+    FFT_SIMD_LOAD_INTERLEAVED FFT_SIMD_STORE FFT_SIMD_STORE_INTERLEAVED 
+    FFT_SIMD_STORE_SHUFFLED IDTLB IHI III IITLB IPF L16SI L16UI L32E L32I 
+    L32R L8UI LDDR32.P LICT LICW PDTLB PITLB RDTLB0 RDTLB1 RITLB0 RITLB1 
+    S16I S32E S32I S32NB S8I SDDR32.P SICT SICW WDTLB WITLB 
+#The following opcodes in format x16a, slot Inst16a, index 0 use Load/Store unit 0 
+    L32I.N S32I.N 
+#The following opcodes in format xt_format1, slot xt_flix64_slot0, index 0 use Load/Store unit 0 
+    L16SI L16UI L32I L32R L8UI S16I S32I S8I 
+#The following opcodes in format xt_format2, slot xt_flix64_slot0, index 0 use Load/Store unit 0 
+    L16SI L16UI L32I L32R L8UI S16I S32I S8I 
+#The following opcodes in format flix64, slot slot_0, index 0 use Load/Store unit 0 
+    FFT_SIMD_LOAD FFT_SIMD_LOAD_SHUFFLED L16SI S16I ld.vect8x16 st.vect8x16 
+#The following opcodes in format flix64, slot slot_2, index 2 use Load/Store unit 1 
+    FFT_SIMD_LOAD FFT_SIMD_LOAD_SHUFFLED L16SI S16I ld.vect8x16 st.vect8x16 
+
+
+### Schedule information for states
+State: REG_K
+  use stages: 1
+  def stages: 3
+
+
+### User register write instruction def stages
+Instruction WUR.REG_K defs user_register REG_K in stage 3.
+
+
+### Report the generated flops in each semantic 
+
+Semantic: st.vect8x16
+    32 * 1 	opnd_imm_vect8x16: 0 -> 1
+
+Semantic: ld.vect8x16
+    32 * 1 	opnd_imm_vect8x16: 0 -> 1
+
+Semantic: FFT_REVERSE_BITS
+
+Semantic: FFT_SIMD_LOAD_SHUFFLED
+    1 * 2 	TIEmux_tmp405: 0 -> 2
+
+Semantic: FFT_SIMD_STORE_SHUFFLED
+    1 * 1 	TIEmux_tmp408: 0 -> 1
+    128 * 1 	shuffledValues: 1 -> 2
+
+Semantic: FFT_SIMD_LOAD_INTERLEAVED
+    128 * 1 	opnd_FFT_SIMD_LOAD_INTERLEAVED_vec1: 1 -> 2
+    1 * 2 	TIEmux_tmp413: 0 -> 2
+    128 * 1 	opnd_FFT_SIMD_LOAD_INTERLEAVED_vec2: 1 -> 2
+    1 * 2 	TIEmux_tmp416: 0 -> 2
+
+Semantic: FFT_SIMD_STORE_INTERLEAVED
+    1 * 1 	TIEmux_tmp420: 0 -> 1
+    1 * 1 	TIEmux_tmp423: 0 -> 1
+    128 * 1 	data: 1 -> 2

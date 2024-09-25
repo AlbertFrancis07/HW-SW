@@ -1,0 +1,19 @@
+use vars qw(%xt_l64a_flix64_slot_1_NOP_ports);
+%xt_l64a_flix64_slot_1_NOP_ports = (
+);
+use vars qw(%xt_l64a_flix64_slot_2_L16SI_ports);
+%xt_l64a_flix64_slot_2_L16SI_ports = (
+	'art', ['AR', 'wr2', 32, 1]
+	,'ars', ['AR', 'rd4', 32, 1]
+	,'MemDataIn32', ['MemLoadData']
+);
+use vars qw(%xt_l64a_flix64_slot_2_NOP_ports);
+%xt_l64a_flix64_slot_2_NOP_ports = (
+);
+use vars qw(%xt_l64a_flix64_slot_2_S16I_ports);
+%xt_l64a_flix64_slot_2_S16I_ports = (
+	'art', ['AR', 'rd5', 32, 1]
+	,'ars', ['AR', 'rd4', 32, 1]
+);
+
+1;

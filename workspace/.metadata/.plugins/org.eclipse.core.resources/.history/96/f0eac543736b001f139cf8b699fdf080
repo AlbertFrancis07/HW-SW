@@ -1,0 +1,18 @@
+/*
+ * fft_mac.c
+ *
+ *  Created on: 03.09.2024
+ *      Author: albert.francis
+ */
+#include "fft.h"
+
+
+if FFT_TIE==0
+
+extern fixed Sinewave[1024];
+
+void fft_macTIE(int *in)
+{
+ 
+}
+

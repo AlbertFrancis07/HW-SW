@@ -1,0 +1,20 @@
+**** Incremental Build [Do, 22 Aug 2024 20:38:17] ****
+ Project: firfilter
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/firfilter" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/firfilter/fir_filter.c" -o "U:/HWSWCODESIGN/workspace/firfilter/bin/hwsw_codesign2019_aligned/Debug/fir_filter.o" 
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/firfilter/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/firfilter/bin/hwsw_codesign2019_aligned/Debug/firfilter.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 343 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/firfilter/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/firfilter/bin/hwsw_codesign2019_aligned/Debug/firfilter -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+U:/HWSWCODESIGN/workspace/firfilter/bin/hwsw_codesign2019_aligned/Debug/fir_filter_mac.o: In function `fir_macTIE':
+U:\HWSWCODESIGN\workspace\firfilter/fir_filter_mac.c:24: undefined reference to `FIR_MAC'
+Time taken: 593 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.625 secs
+**** Build Finished [Do, 22 Aug 2024 20:38:19] ****
