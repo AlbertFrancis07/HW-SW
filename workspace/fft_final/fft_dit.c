@@ -1,6 +1,8 @@
+//Implementation of DIT_FFT/IFFT with TIE
+
 #include "fft.h"
 #include <xtensa/tie/xt_booleans.h>
-#include <xtensa/tie/fft.h>
+#include <xtensa/tie/fft_tie.h>
 #include <stdio.h>
 
 #define aligned_by_16 __attribute__ ((aligned(16)))
@@ -60,8 +62,8 @@ int fix_fft_dit(fixed fr[], fixed fi[], int m, int inverse)
             shift = 0;
             for(i=0; i<n; i=i+8)
             {
-                reg8x16 j_reg =FFT_SIMD_LOAD(fr,i);
-                reg8x16 m_reg =FFT_SIMD_LOAD(fi,i);
+                reg8x16 j_reg =SIMD_LOAD(fr,i);
+                reg8x16 m_reg =SIMD_LOAD(fi,i);
                 
                 if(SHIFT_CONDITION(j_reg,m_reg))
                 {

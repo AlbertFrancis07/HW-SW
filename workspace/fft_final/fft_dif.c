@@ -1,6 +1,9 @@
+
+//Implementation of DIF_FFT/IFFT with TIE
+
 #include "fft.h"
 #include <xtensa/tie/xt_booleans.h>
-#include <xtensa/tie/fft.h>
+#include <xtensa/tie/fft_tie.h>
 #include <stdio.h>
 
 #define aligned_by_16 __attribute__ ((aligned(16)))
@@ -98,18 +101,18 @@ int fix_fft_dif(fixed fr[], fixed fi[], int m, int inverse)
 		} else { // Last three stages
 
 			for (i=0; i<n; i = i+8) {
-				register vect8x16 real, imag;
+				register reg8x16 real, imag;
 
 				k = 7;
 
 				real = SIMD_LOAD_SHUFFLED(fr, i, SHUFFLE);
 				imag = SIMD_LOAD_SHUFFLED(fi, i, SHUFFLE);
 
-				DIF_THIRD_LAST_STAGE(k, inverse, shift, real, imag);
+				DIF_FIRST_STAGE(k, inverse, shift, real, imag);
 
 				++k;
 
-				DIF_SECOND_LAST_STAGE(k, inverse, shift, real, imag);
+				DIF_SECOND_STAGE(k, inverse, shift, real, imag);
 
 				++k;
 

@@ -1,0 +1,87 @@
+//main.c
+
+#include 		"fft.h"
+#include        <stdio.h>
+#include        <math.h>
+
+#define DO_FFT	1
+
+#define M       3
+
+#define N       (1<<M)
+
+fixed real[N] __attribute__ ((section(".dram0.data")));
+fixed imag[N] __attribute__ ((section(".dram1.data")));
+
+fixed  real_ref[N];
+fixed  imag_ref[N];
+
+int main()
+{
+    int i;
+
+    for(i=0; i<N; i++)
+    {
+        real_dit[i] = 1000*cos(i*2*3.1415926535/N);
+        real_dif[i]=real_dit[i];
+        real_ref[i]=real_dif[i];
+        imag_dit[i] = 0;
+        imag_dif[i]=imag_dit[i];
+        imag_ref[i]=imag_dif[i];
+    }
+    
+    printf("\nInput Data\n");
+    for (i=0; i<N; i++)
+    {
+    	printf("%d: %d, %d\n", i, real[i], imag[i]);
+    }
+	
+    
+    //FFT
+#if (DO_FFT==1)
+    fix_fft(real_ref, imag_ref, M, 0);
+    fix_fft_dit(real_dit,imag_dit,M,0);
+    fix_fft_dif(real_dif,imag_dif,M,0);
+
+    printf("--------------DIT-------------");
+    printf("\nFFT_DIT with TIE  |  FFT_DIT without TIE\n");
+    for (i=0; i<N; i++)
+    {
+        printf("%d: %d, %d    |   %d,  %d", i, real_dit[i], imag_dit[i],real_ref[i],imag_ref[i]);
+    }
+    
+
+    printf("--------------DIF-------------");
+    printf("\nFFT_DIF with TIE  |  FFT_DIF without TIE\n");
+    for (i=0; i<N; i++)
+    {
+        printf("%d: %d, %d    |   %d,  %d", i, real_dif[i], imag_dif[i],real_ref[i],imag_ref[i]);
+    }
+	
+#else
+    
+    //IFFT
+    fix_fft(real_ref, imag_ref, M, 1);
+    fix_fft_dit(real_dit,imag_dit,M,1);
+    fix_fft_dif(real_dif,imag_dif,M,1);
+    
+
+    printf("--------------DIT-------------");
+    printf("\nFFT_DIT with TIE  |  FFT_DIT without TIE\n");
+    for (i=0; i<N; i++)
+    {
+        printf("%d: %d, %d    |   %d,  %d", i, real_dit[i], imag_dit[i],real_ref[i],imag_ref[i]);
+    }
+    
+
+    printf("--------------DIF-------------");
+    printf("\nFFT_DIF with TIE  |  FFT_DIF without TIE\n");
+    for (i=0; i<N; i++)
+    {
+        printf("%d: %d, %d    |   %d,  %d", i, real_dif[i], imag_dif[i],real_ref[i],imag_ref[i]);
+    }
+#endif
+    
+    return 0;
+}
+

@@ -1103,3 +1103,1963 @@ Total time taken: 2.078 secs
 Nothing to build.
 Total time taken: 0.031 secs
 **** Build Finished [So, 22 Sep 2024 13:31:05] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:22:06] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 297, Error: (TIE_NOT_DEFINED), function get_sin_value is not defined
+File: fft_tie.tie, Line: 298, Error: (TIE_NOT_DEFINED), function get_sin_value is not defined
+
+2 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 4.25 secs
+**** Build Finished [Fr, 27 Sep 2024 15:22:11] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:26:43] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 297, Error: (TIE_NOT_DEFINED), function sin_value is not defined
+File: fft_tie.tie, Line: 298, Error: (TIE_NOT_DEFINED), function sin_value is not defined
+
+2 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.656 secs
+**** Build Finished [Fr, 27 Sep 2024 15:26:46] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:29:57] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 711, Error: (TIE_OPERATION_UNKNOWN_ARG), Operation argument vect8x16 must be regfile, table, immediate_range, or operand
+
+1 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.844 secs
+**** Build Finished [Fr, 27 Sep 2024 15:30:00] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:30:33] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 711, Error: (TIE_OPERATION_UNKNOWN_ARG), Operation argument vect8x16 must be regfile, table, immediate_range, or operand
+
+1 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.703 secs
+**** Build Finished [Fr, 27 Sep 2024 15:30:35] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:30:53] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 662, Error: (TIE_NOT_DEFINED), function calc_4_butterflies_dif is not defined
+File: fft_tie.tie, Line: 683, Error: (TIE_NOT_DEFINED), function calc_4_butterflies_dif is not defined
+File: fft_tie.tie, Line: 704, Error: (TIE_NOT_DEFINED), function calc_4_butterflies_dif is not defined
+File: fft_tie.tie, Line: 720, Error: (TIE_NOT_DEFINED), function calc_4_butterflies_dif is not defined
+File: fft_tie.tie, Line: 782, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 794, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 818, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 826, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 828, Error: (TIE_NOT_DEFINED), function lower is not defined
+File: fft_tie.tie, Line: 828, Error: (TIE_NOT_DEFINED), function upper is not defined
+
+	Found 10 Error(s) of type TIE_NOT_DEFINED
+	Same Error will not be reported
+
+12 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.953 secs
+**** Build Finished [Fr, 27 Sep 2024 15:30:56] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:36:43] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 829, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 841, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 865, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 873, Error: (TIE_NOT_DEFINED), function calc_addr is not defined
+File: fft_tie.tie, Line: 875, Error: (TIE_NOT_DEFINED), function lower is not defined
+File: fft_tie.tie, Line: 875, Error: (TIE_NOT_DEFINED), function upper is not defined
+File: fft_tie.tie, Line: 876, Error: (TIE_NOT_DEFINED), function lower is not defined
+File: fft_tie.tie, Line: 876, Error: (TIE_NOT_DEFINED), function upper is not defined
+
+8 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.797 secs
+**** Build Finished [Fr, 27 Sep 2024 15:36:46] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:39:14] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 875, Error: (TIE_NOT_DEFINED), function lower is not defined
+File: fft_tie.tie, Line: 875, Error: (TIE_NOT_DEFINED), function upper is not defined
+File: fft_tie.tie, Line: 876, Error: (TIE_NOT_DEFINED), function lower is not defined
+File: fft_tie.tie, Line: 876, Error: (TIE_NOT_DEFINED), function upper is not defined
+
+4 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.75 secs
+**** Build Finished [Fr, 27 Sep 2024 15:39:17] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:43:19] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 792, Error: (TIE_OPCODE_NON_INST_SLOT_ONLY), Opcode "FFT_SIMD_LOAD" does not refer to a valid instruction, and thus cannot have an automatic encoding. You must define an operation (or iclass, reference) for this opcode to be a valid instruction.
+File: fft_tie.tie, Line: 792, Error: (TIE_OPCODE_NON_INST_SLOT_ONLY), Opcode "FFT_SIMD_LOAD_SHUFFLED" does not refer to a valid instruction, and thus cannot have an automatic encoding. You must define an operation (or iclass, reference) for this opcode to be a valid instruction.
+File: fft_tie.tie, Line: 794, Error: (TIE_OPCODE_NON_INST_SLOT_ONLY), Opcode "FFT_SIMD_LOAD" does not refer to a valid instruction, and thus cannot have an automatic encoding. You must define an operation (or iclass, reference) for this opcode to be a valid instruction.
+File: fft_tie.tie, Line: 794, Error: (TIE_OPCODE_NON_INST_SLOT_ONLY), Opcode "FFT_SIMD_LOAD_SHUFFLED" does not refer to a valid instruction, and thus cannot have an automatic encoding. You must define an operation (or iclass, reference) for this opcode to be a valid instruction.
+
+4 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.625 secs
+**** Build Finished [Fr, 27 Sep 2024 15:43:22] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:43:53] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 305, Error: (TIE_NOT_DECL), node is not declared as a valid variable in get_sin_value . Valid variables in an operation body are the arguments declared in its argument list and state interface list. Valid variables in a function body are the inputs declared in the argument list and the function name which is also the output of the function.
+Warning: (TIE_ENCODING_USED), In slot Inst, the following instructions were assigned encodings that interfere with the Multiprocessor Synchronization architectural option(s). These encodings were chosen because no other encodings were possible given the instruction description. You will be unable to use that option with this TIE. The instructions are: SIMD_STORE_SHUFFLED, SIMD_LOAD_INTERLEAVED, SIMD_STORE_INTERLEAVED
+File: fft_tie.tie, Line: 74, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.reg8x16, ld.reg8x16, st.reg8x16 created for regfile "reg8x16".
+
+1 error(s), 1 warning(s) 1 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 3.188 secs
+**** Build Finished [Fr, 27 Sep 2024 15:43:56] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:44:42] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 579, Warning: (TIE_OPERATION_NO_DEP), Operation "DIT_FIRST_STAGE", input argument "k" is not used to compute any of the operation outputs
+File: fft_tie.tie, Line: 749, Warning: (TIE_OPERATION_NO_DEP), Operation "DIF_LAST_STAGE", input argument "k" is not used to compute any of the operation outputs
+Warning: (TIE_ENCODING_USED), In slot Inst, the following instructions were assigned encodings that interfere with the Multiprocessor Synchronization architectural option(s). These encodings were chosen because no other encodings were possible given the instruction description. You will be unable to use that option with this TIE. The instructions are: SIMD_STORE_SHUFFLED, SIMD_LOAD_INTERLEAVED, SIMD_STORE_INTERLEAVED
+File: fft_tie.tie, Line: 74, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.reg8x16, ld.reg8x16, st.reg8x16 created for regfile "reg8x16".
+
+0 error(s), 3 warning(s) 1 message(s)
+Time taken: 26844 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:26: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:28: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:29: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 266 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c: In function 'fix_fft_dit':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: incompatible types in initialization
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: incompatible types in initialization
+Time taken: 578 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'real'
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'real' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'imag' undeclared (first use in this function)
+Time taken: 328 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 2328 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 29.906 secs
+**** Build Finished [Fr, 27 Sep 2024 15:45:12] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:50:51] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:26: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:28: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:29: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 219 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:3:32: error: xtensa/tie/fft_tie.h: No such file or directory
+Time taken: 219 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:3:32: error: xtensa/tie/fft_tie.h: No such file or directory
+Time taken: 188 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.359 secs
+**** Build Finished [Fr, 27 Sep 2024 15:50:53] ****
+**** Incremental Build [Fr, 27 Sep 2024 15:58:21] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:3:32: error: xtensa/tie/fft_tie.h: No such file or directory
+Time taken: 266 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:25: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:26: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:28: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:29: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 391 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:3:32: error: xtensa/tie/fft_tie.h: No such file or directory
+Time taken: 172 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.484 secs
+**** Build Finished [Fr, 27 Sep 2024 15:58:22] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:18:44] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft.tdb
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 3, Error: (TIE_ALREADY_DEFINED), state REG_K is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 9, Error: (TIE_ALREADY_DEFINED), table SINWAVE is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 15, Error: (TIE_ALREADY_DEFINED), immediate_range immediate is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 18, Error: (TIE_REGFILE_SNAME_DEFINED), Regfile "reg8x16" shortname "rg" or one of its instance names conflicts with regfile "reg8x16" shortname "rg" or one of its instance names. Regfile short names are compared in case insensitive manner. Each regfile generates individual shortname instances by concatenating the shortname with an index ranging from 0 to the size of the register file minus 1. A register file shortname and its instance names may not conflict with another register file shortname or one of its instances.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 18, Error: (TIE_ALREADY_DEFINED), regfile reg8x16 is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 32, Error: (TIE_ALREADY_DEFINED), operation BIT_REVERSE is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 35, Error: (TIE_ALREADY_DEFINED), operation DIT_FIRST_STAGE is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 59, Error: (TIE_ALREADY_DEFINED), operation DIT_SECOND_STAGE is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 83, Error: (TIE_ALREADY_DEFINED), operation DIT_THIRD_STAGE is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 99, Error: (TIE_ALREADY_DEFINED), operation DIT_CALC_STAGE is already defined
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 115, Error: (TIE_ALREADY_DEFINED), operation DIF_FIRST_STAGE is already defined
+
+	Found 10 Error(s) of type TIE_ALREADY_DEFINED
+	Same Error will not be reported
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 273, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "FixedSub" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 277, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "FixedMul" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 283, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "real" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 287, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "imag" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 291, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "get_even" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 303, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "get_odd" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 315, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "reverse_2_byte_wise" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 335, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "reverse_shuffle8x16" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 355, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "shuffle8x16" is already declared.
+File: U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft.tdb, Line: 375, Error: (TIE_FUNCTION_ALREADY_DECLARED), Function "realFrom256" is already declared.
+
+	Found 10 Error(s) of type TIE_FUNCTION_ALREADY_DECLARED
+	Same Error will not be reported
+
+45 error(s), 0 warning(s) 0 message(s)
+
+Build error encountered... cannot continue further.
+Total time taken: 2.937 secs
+**** Build Finished [Fr, 27 Sep 2024 16:18:47] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:25:26] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:42: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:42: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 421 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 1282 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c: In function 'fix_fft_dit':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: incompatible types in initialization
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: incompatible types in initialization
+Time taken: 328 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'real'
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'real' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'imag' undeclared (first use in this function)
+Time taken: 219 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 2.39 secs
+**** Build Finished [Fr, 27 Sep 2024 16:25:28] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:25:40] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c: In function 'fix_fft_dit':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: incompatible types in initialization
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: incompatible types in initialization
+Time taken: 313 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:42: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:42: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'real'
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'real' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'imag' undeclared (first use in this function)
+Time taken: 281 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.625 secs
+**** Build Finished [Fr, 27 Sep 2024 16:25:42] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:25:47] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c: In function 'fix_fft_dit':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: incompatible types in initialization
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: incompatible types in initialization
+Time taken: 359 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:41: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:42: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:42: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 375 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'real'
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'real' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'imag' undeclared (first use in this function)
+Time taken: 188 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.453 secs
+**** Build Finished [Fr, 27 Sep 2024 16:25:49] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:27:00] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c: In function 'fix_fft_dit':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:63: error: incompatible types in initialization
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: perhaps a TIE conversion macro (from int to reg8x16) is missing
+U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c:64: error: incompatible types in initialization
+Time taken: 265 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'real'
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'real' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'imag' undeclared (first use in this function)
+Time taken: 391 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 1187 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 2.047 secs
+**** Build Finished [Fr, 27 Sep 2024 16:27:02] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:27:47] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'real'
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'real' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:101: error: 'imag' undeclared (first use in this function)
+Time taken: 281 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 735 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.344 secs
+**** Build Finished [Fr, 27 Sep 2024 16:27:49] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:28:20] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c: In function 'fix_fft_dif':
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:108: error: TIE type is not supported at parameter 4 for function 'DIF_THIRD_LAST_STAGE' since it is neither a TIE intrinsic nor a prototyped C function
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:108: error: TIE type is not supported at parameter 5 for function 'DIF_THIRD_LAST_STAGE' since it is neither a TIE intrinsic nor a prototyped C function
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:112: error: TIE type is not supported at parameter 4 for function 'DIF_SECOND_LAST_STAGE' since it is neither a TIE intrinsic nor a prototyped C function
+U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c:112: error: TIE type is not supported at parameter 5 for function 'DIF_SECOND_LAST_STAGE' since it is neither a TIE intrinsic nor a prototyped C function
+Time taken: 188 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 0.953 secs
+**** Build Finished [Fr, 27 Sep 2024 16:28:21] ****
+**** Incremental Build [Fr, 27 Sep 2024 16:29:24] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 594 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o: In function `fix_fft_dit':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o: In function `fix_mpy':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o: In function `fix_fft_dit':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o: In function `fix_mpy':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+main.c:(.text+0xe8): undefined reference to `fix_fft'
+Time taken: 1187 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 3.047 secs
+**** Build Finished [Fr, 27 Sep 2024 16:29:27] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:07:12] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 1734 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 2234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 594 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 656 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o: In function `fix_fft_dit':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o: In function `fix_mpy':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+Time taken: 594 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o: In function `fix_fft_dit':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o: In function `fix_mpy':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o:(.data+0x0): multiple definition of `Sinewave'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:(.data+0x0): first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: multiple definition of `fix_mpy'
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o:U:\HWSWCODESIGN\workspace\fft_final/fft.h:25: first defined here
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+main.c:(.text+0xe8): undefined reference to `fix_fft'
+Time taken: 1157 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 6.281 secs
+**** Build Finished [Sa, 28 Sep 2024 01:07:18] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:13:47] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/sinewave.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/sinewave.o" 
+Time taken: 657 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 656 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 761 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 859 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 516 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 313 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:40: undefined reference to `fix_fft'
+Time taken: 625 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 4.228 secs
+**** Build Finished [Sa, 28 Sep 2024 01:13:51] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:15:18] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/sinewave.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/sinewave.o" 
+Time taken: 657 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 719 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 625 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 734 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 532 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 315 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:40: undefined reference to `fix_fft'
+Time taken: 612 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 4.093 secs
+**** Build Finished [Sa, 28 Sep 2024 01:15:23] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:21:54] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw_codesign2019_aligned" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk  -libdebug -Y -noerrformat  -name fft_tie U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft_tie.tie
+File: fft_tie.tie, Line: 579, Warning: (TIE_OPERATION_NO_DEP), Operation "DIT_FIRST_STAGE", input argument "k" is not used to compute any of the operation outputs
+File: fft_tie.tie, Line: 749, Warning: (TIE_OPERATION_NO_DEP), Operation "DIF_LAST_STAGE", input argument "k" is not used to compute any of the operation outputs
+Warning: (TIE_ENCODING_USED), In slot Inst, the following instructions were assigned encodings that interfere with the Multiprocessor Synchronization architectural option(s). These encodings were chosen because no other encodings were possible given the instruction description. You will be unable to use that option with this TIE. The instructions are: SIMD_STORE_SHUFFLED, SIMD_LOAD_INTERLEAVED, SIMD_STORE_INTERLEAVED
+File: fft_tie.tie, Line: 74, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.reg8x16, ld.reg8x16, st.reg8x16 created for regfile "reg8x16".
+
+0 error(s), 3 warning(s) 1 message(s)
+Time taken: 26578 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/sinewave.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/sinewave.o" 
+Time taken: 875 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 828 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 469 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 656 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 484 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 328 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:40: undefined reference to `fix_fft'
+Time taken: 657 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 30.532 secs
+**** Build Finished [Sa, 28 Sep 2024 01:22:25] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:25:19] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:64: error: 'real_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:64: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:64: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:64: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:65: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:65: error: 'imag_dif' undeclared (first use in this function)
+Time taken: 187 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 0.954 secs
+**** Build Finished [Sa, 28 Sep 2024 01:25:20] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:26:07] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 703 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:39: undefined reference to `fix_fft'
+Time taken: 546 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 2.75 secs
+**** Build Finished [Sa, 28 Sep 2024 01:26:10] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:26:31] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 562 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 360 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 750 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49046	      0	      0	      0	  49046	   bf96	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    912	      0	      0	      0	    912	    390	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1601	   2028	   4640	    144	   8413	   20dd	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51559	   2028	   4640	    144	  58371	   e403	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 266 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.562 secs
+**** Build Finished [Sa, 28 Sep 2024 01:26:33] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:26:45] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 422 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 422 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49046	      0	      0	      0	  49046	   bf96	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    912	      0	      0	      0	    912	    390	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1601	   2028	   4640	    144	   8413	   20dd	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51559	   2028	   4640	    144	  58371	   e403	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 219 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.344 secs
+**** Build Finished [Sa, 28 Sep 2024 01:26:47] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:29:52] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 672 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 421 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 531 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49046	      0	      0	      0	  49046	   bf96	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    916	      0	      0	      0	    916	    394	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1597	   2060	   4640	    144	   8441	   20f9	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51559	   2060	   4640	    144	  58403	   e423	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 157 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.656 secs
+**** Build Finished [Sa, 28 Sep 2024 01:29:55] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:29:57] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 546 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 297 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 547 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49046	      0	      0	      0	  49046	   bf96	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    916	      0	      0	      0	    916	    394	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1597	   2060	   4640	    144	   8441	   20f9	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51559	   2060	   4640	    144	  58403	   e423	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 219 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.218 secs
+**** Build Finished [Sa, 28 Sep 2024 01:29:59] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:45:17] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 594 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 547 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  48896	      0	      0	      0	  48896	   bf00	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    912	      0	      0	      0	    912	    390	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2028	   4640	    144	   8411	   20db	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51407	   2028	   4640	    144	  58219	   e36b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 203 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.516 secs
+**** Build Finished [Sa, 28 Sep 2024 01:45:20] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:45:41] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 01:45:41] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:49:24] ****
+ Project: fft
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft/fft.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft.o" 
+Time taken: 687 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 640 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 282 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 719 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  43882	      0	      0	      0	  43882	   ab6a	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+literal	    844	      0	      0	      0	    844	    34c	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+other  	   1585	   1868	   4608	    144	   8205	   200d	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+Total  	  46311	   1868	   4608	    144	  52931	   cec3	U:/HWSWCODESIGN/workspace/fft/bin/hwsw_codesign2019_aligned/Debug/fft
+
+Time taken: 266 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.765 secs
+**** Build Finished [Sa, 28 Sep 2024 01:49:26] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:49:30] ****
+ Project: fft
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 01:49:30] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:50:49] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 594 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 484 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:41: undefined reference to `fix_fft'
+Time taken: 671 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 2.344 secs
+**** Build Finished [Sa, 28 Sep 2024 01:50:51] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:54:54] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw2" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk  -libdebug   -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft.tie
+File: fft.tie, Line: 411, Warning: (TIE_OPERATION_NO_DEP), Operation "FFT_DIT_CALC_FIRST_STAGE", input argument "k" is not used to compute any of the operation outputs
+File: fft.tie, Line: 515, Warning: (TIE_OPERATION_NO_DEP), Operation "FFT_DIF_CALC_LAST_STAGE", input argument "k" is not used to compute any of the operation outputs
+Warning: (TIE_ENCODING_USED), In slot Inst, the following instructions were assigned encodings that interfere with the Multiprocessor Synchronization architectural option(s). These encodings were chosen because no other encodings were possible given the instruction description. You will be unable to use that option with this TIE. The instructions are: FFT_SIMD_STORE_SHUFFLED, FFT_SIMD_LOAD_INTERLEAVED, FFT_SIMD_STORE_INTERLEAVED
+File: fft.tie, Line: 70, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.vect8x16, ld.vect8x16, st.vect8x16 created for regfile "vect8x16".
+
+0 error(s), 3 warning(s) 1 message(s)
+Time taken: 25141 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/sinwave.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/sinwave.o" 
+Time taken: 641 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/main.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/main.o" 
+Time taken: 813 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/fixed.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/fixed.o" 
+Time taken: 688 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/fft_ref.o" 
+Time taken: 657 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/fft.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/fft.o" 
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 375 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 500 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49303	      0	      0	      0	  49303	   c097	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+literal	    952	      0	      0	      0	    952	    3b8	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+other  	   1608	   2188	   4672	    176	   8644	   21c4	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+Total  	  51863	   2188	   4672	    176	  58899	   e613	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+
+Time taken: 250 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 29.344 secs
+**** Build Finished [Sa, 28 Sep 2024 01:55:24] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:55:26] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.031 secs
+**** Build Finished [Sa, 28 Sep 2024 01:55:26] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:56:07] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/main.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/main.o" 
+Time taken: 672 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 250 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 625 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49299	      0	      0	      0	  49299	   c093	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+literal	    948	      0	      0	      0	    948	    3b4	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+other  	   1608	   2188	   4640	    144	   8580	   2184	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+Total  	  51855	   2188	   4640	    144	  58827	   e5cb	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+
+Time taken: 250 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.688 secs
+**** Build Finished [Sa, 28 Sep 2024 01:56:10] ****
+**** Incremental Build [Sa, 28 Sep 2024 01:56:12] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/main.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/main.o" 
+Time taken: 437 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 250 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 500 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49299	      0	      0	      0	  49299	   c093	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+literal	    948	      0	      0	      0	    948	    3b4	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+other  	   1608	   2188	   4640	    144	   8580	   2184	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+Total  	  51855	   2188	   4640	    144	  58827	   e5cb	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+
+Time taken: 125 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 1.829 secs
+**** Build Finished [Sa, 28 Sep 2024 01:56:14] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:05:16] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 828 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 328 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:41: undefined reference to `fix_fft'
+Time taken: 500 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 2.469 secs
+**** Build Finished [Sa, 28 Sep 2024 02:05:18] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:05:32] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 562 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 297 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 672 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  48896	      0	      0	      0	  48896	   bf00	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    912	      0	      0	      0	    912	    390	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2028	   4640	    144	   8411	   20db	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51407	   2028	   4640	    144	  58219	   e36b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 172 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.531 secs
+**** Build Finished [Sa, 28 Sep 2024 02:05:34] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:05:36] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 515 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 234 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 422 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  48896	      0	      0	      0	  48896	   bf00	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    912	      0	      0	      0	    912	    390	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2028	   4640	    144	   8411	   20db	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51407	   2028	   4640	    144	  58219	   e36b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 250 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 1.984 secs
+**** Build Finished [Sa, 28 Sep 2024 02:05:38] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:06:16] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/main.o" 
+Time taken: 1875 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/fft/fft.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.o" 
+Time taken: 2141 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 266 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 954 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  43882	      0	      0	      0	  43882	   ab6a	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+literal	    844	      0	      0	      0	    844	    34c	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+other  	   1585	   1868	   4608	    144	   8205	   200d	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+Total  	  46311	   1868	   4608	    144	  52931	   cec3	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+
+Time taken: 125 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 6.641 secs
+**** Build Finished [Sa, 28 Sep 2024 02:06:23] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:06:25] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:06:25] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:07:46] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:07:46] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:07:49] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:07:49] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:09:22] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/main.o" 
+Time taken: 1109 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/fft.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.o" 
+Time taken: 1109 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 250 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 422 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  43882	      0	      0	      0	  43882	   ab6a	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+literal	    844	      0	      0	      0	    844	    34c	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+other  	   1585	   1868	   4608	    144	   8205	   200d	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+Total  	  46311	   1868	   4608	    144	  52931	   cec3	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+
+Time taken: 156 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.312 secs
+**** Build Finished [Sa, 28 Sep 2024 02:09:25] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:09:27] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.0 secs
+**** Build Finished [Sa, 28 Sep 2024 02:09:27] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:09:49] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:09:49] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:09:54] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:09:54] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:10:38] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 562 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 375 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 625 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  48883	      0	      0	      0	  48883	   bef3	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    912	      0	      0	      0	    912	    390	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1604	   2028	   4640	    144	   8416	   20e0	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51399	   2028	   4640	    144	  58211	   e363	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 156 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.61 secs
+**** Build Finished [Sa, 28 Sep 2024 02:10:40] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:10:42] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:10:42] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:18:59] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:27: error: 'real_diti' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:27: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:27: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:27: error: expected ';' before ']' token
+U:/HWSWCODESIGN/workspace/fft_final/main.c:27: error: expected statement before ']' token
+U:/HWSWCODESIGN/workspace/fft_final/main.c:27: error: expected expression before '=' token
+U:/HWSWCODESIGN/workspace/fft_final/main.c:28: error: 'real_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:31: error: 'imag_dit' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:32: error: 'imag_dif' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:53: error: 'real_dit' undeclared (first use in this function)
+Time taken: 203 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 1.047 secs
+**** Build Finished [Sa, 28 Sep 2024 02:19:00] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:19:40] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:34: error: 'real_diti' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:34: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:34: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:34: error: expected ';' before ']' token
+U:/HWSWCODESIGN/workspace/fft_final/main.c:34: error: expected statement before ']' token
+U:/HWSWCODESIGN/workspace/fft_final/main.c:34: error: expected expression before '=' token
+Time taken: 200 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 0.937 secs
+**** Build Finished [Sa, 28 Sep 2024 02:19:41] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:19:59] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 281 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:52: undefined reference to `fix_fft'
+Time taken: 656 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 2.14 secs
+**** Build Finished [Sa, 28 Sep 2024 02:20:01] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:22:48] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/sinewave.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/sinewave.o" 
+Time taken: 781 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 687 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 719 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 735 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 485 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 281 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o: In function `main':
+U:\HWSWCODESIGN\workspace\fft_final/main.c:52: undefined reference to `fix_fft'
+Time taken: 594 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 4.094 secs
+**** Build Finished [Sa, 28 Sep 2024 02:22:52] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:26:06] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+U:/HWSWCODESIGN/workspace/fft_final/main.c: In function 'main':
+U:/HWSWCODESIGN/workspace/fft_final/main.c:67: error: 'real_ref' undeclared (first use in this function)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:67: error: (Each undeclared identifier is reported only once
+U:/HWSWCODESIGN/workspace/fft_final/main.c:67: error: for each function it appears in.)
+U:/HWSWCODESIGN/workspace/fft_final/main.c:67: error: 'imag_ref' undeclared (first use in this function)
+Time taken: 203 ms 
+
+Build error encountered... cannot continue further.
+Total time taken: 0.937 secs
+**** Build Finished [Sa, 28 Sep 2024 02:26:07] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:28:43] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 594 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 297 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 765 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49051	      0	      0	      0	  49051	   bf9b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    936	      0	      0	      0	    936	    3a8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1604	   2028	   4640	    240	   8512	   2140	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51591	   2028	   4640	    240	  58499	   e483	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 188 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.625 secs
+**** Build Finished [Sa, 28 Sep 2024 02:28:45] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:28:48] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.031 secs
+**** Build Finished [Sa, 28 Sep 2024 02:28:48] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:31:48] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 625 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 313 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 563 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49064	      0	      0	      0	  49064	   bfa8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    936	      0	      0	      0	    936	    3a8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2028	   4640	    240	   8507	   213b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51599	   2028	   4640	    240	  58507	   e48b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 282 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.734 secs
+**** Build Finished [Sa, 28 Sep 2024 02:31:50] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:31:52] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:31:52] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:33:53] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "hwsw2" ...
+
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk  -libdebug   -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\fft.tie
+File: fft.tie, Line: 411, Warning: (TIE_OPERATION_NO_DEP), Operation "FFT_DIT_CALC_FIRST_STAGE", input argument "k" is not used to compute any of the operation outputs
+File: fft.tie, Line: 515, Warning: (TIE_OPERATION_NO_DEP), Operation "FFT_DIF_CALC_LAST_STAGE", input argument "k" is not used to compute any of the operation outputs
+Warning: (TIE_ENCODING_USED), In slot Inst, the following instructions were assigned encodings that interfere with the Multiprocessor Synchronization architectural option(s). These encodings were chosen because no other encodings were possible given the instruction description. You will be unable to use that option with this TIE. The instructions are: FFT_SIMD_STORE_SHUFFLED, FFT_SIMD_LOAD_INTERLEAVED, FFT_SIMD_STORE_INTERLEAVED
+File: fft.tie, Line: 70, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.vect8x16, ld.vect8x16, st.vect8x16 created for regfile "vect8x16".
+
+0 error(s), 3 warning(s) 1 message(s)
+Time taken: 24187 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/sinwave.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/sinwave.o" 
+Time taken: 641 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/main.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/main.o" 
+Time taken: 703 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/fixed.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/fixed.o" 
+Time taken: 718 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/fft_ref.o" 
+Time taken: 781 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk" -I "U:/HWSWCODESIGN/workspace/solution" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk "U:/HWSWCODESIGN/workspace/solution/fft.c" -o "U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/fft.o" 
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 343 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk 
+Time taken: 593 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49299	      0	      0	      0	  49299	   c093	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+literal	    948	      0	      0	      0	    948	    3b4	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+other  	   1608	   2188	   4640	    144	   8580	   2184	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+Total  	  51855	   2188	   4640	    144	  58827	   e5cb	U:/HWSWCODESIGN/workspace/solution/bin/hwsw2/Debug/solution
+
+Time taken: 187 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 28.234 secs
+**** Build Finished [Sa, 28 Sep 2024 02:34:22] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:34:24] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:34:24] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:36:07] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:36:07] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:36:12] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:36:12] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:38:03] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 562 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 500 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 625 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49064	      0	      0	      0	  49064	   bfa8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    936	      0	      0	      0	    936	    3a8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2044	   4640	    240	   8523	   214b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51599	   2044	   4640	    240	  58523	   e49b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 141 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.703 secs
+**** Build Finished [Sa, 28 Sep 2024 02:38:05] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:38:08] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:38:08] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:39:30] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:39:30] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:39:32] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:39:32] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:41:59] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:41:59] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:42:01] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:42:01] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:47:00] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:47:00] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:47:02] ****
+ Project: solution
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [Sa, 28 Sep 2024 02:47:02] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:47:40] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:47:40] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:47:47] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.031 secs
+**** Build Finished [Sa, 28 Sep 2024 02:47:47] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:55:19] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 640 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 422 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 547 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49064	      0	      0	      0	  49064	   bfa8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    936	      0	      0	      0	    936	    3a8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2028	   4640	    240	   8507	   213b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51599	   2028	   4640	    240	  58507	   e48b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 141 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.687 secs
+**** Build Finished [Sa, 28 Sep 2024 02:55:22] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:55:24] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:55:24] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:58:09] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 578 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 250 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 562 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49064	      0	      0	      0	  49064	   bfa8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    936	      0	      0	      0	    936	    3a8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2044	   4640	    240	   8523	   214b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51599	   2044	   4640	    240	  58523	   e49b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 203 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.578 secs
+**** Build Finished [Sa, 28 Sep 2024 02:58:11] ****
+**** Incremental Build [Sa, 28 Sep 2024 02:58:14] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.016 secs
+**** Build Finished [Sa, 28 Sep 2024 02:58:14] ****
+**** Incremental Build [So, 29 Sep 2024 18:49:40] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.041 secs
+**** Build Finished [So, 29 Sep 2024 18:49:40] ****
+**** Incremental Build [So, 29 Sep 2024 18:51:03] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.032 secs
+**** Build Finished [So, 29 Sep 2024 18:51:03] ****
+**** Incremental Build [So, 29 Sep 2024 18:53:52] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.188 secs
+**** Build Finished [So, 29 Sep 2024 18:53:52] ****
+**** Incremental Build [So, 29 Sep 2024 18:55:57] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/main.o" 
+Time taken: 2829 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/fft.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.o" 
+Time taken: 2844 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 406 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 781 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  43882	      0	      0	      0	  43882	   ab6a	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+literal	    844	      0	      0	      0	    844	    34c	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+other  	   1585	   1868	   4608	    144	   8205	   200d	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+Total  	  46311	   1868	   4608	    144	  52931	   cec3	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+
+Time taken: 141 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 4.656 secs
+**** Build Finished [So, 29 Sep 2024 18:56:02] ****
+**** Incremental Build [So, 29 Sep 2024 18:56:39] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_hwsw2 -DCONFIG_hwsw2 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/main.o" 
+Time taken: 546 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 297 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= 
+Time taken: 672 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  43882	      0	      0	      0	  43882	   ab6a	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+literal	    844	      0	      0	      0	    844	    34c	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+other  	   1585	   1868	   4608	    144	   8205	   200d	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+Total  	  46311	   1868	   4608	    144	  52931	   cec3	U:/HWSWCODESIGN/workspace/fft/bin/hwsw2/Debug/fft
+
+Time taken: 172 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.312 secs
+**** Build Finished [So, 29 Sep 2024 18:56:41] ****
+**** Incremental Build [So, 29 Sep 2024 18:56:43] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [So, 29 Sep 2024 18:56:43] ****
+**** Incremental Build [So, 29 Sep 2024 18:57:10] ****
+ Project: fft
+ Configuration: hwsw2
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [So, 29 Sep 2024 18:57:10] ****
+**** Incremental Build [So, 29 Sep 2024 19:01:21] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+Nothing to build.
+Total time taken: 0.015 secs
+**** Build Finished [So, 29 Sep 2024 19:01:21] ****
+**** Incremental Build [So, 29 Sep 2024 19:24:35] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o" 
+Time taken: 922 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/sinewave.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/sinewave.o" 
+Time taken: 1125 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_ref.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_ref.o" 
+Time taken: 593 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dit.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dit.o" 
+Time taken: 750 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O0 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/fft_dif.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_dif.o" 
+Time taken: 516 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 297 ms 
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk 
+Time taken: 656 ms 
+
+******* Code size summary *****
+
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  49064	      0	      0	      0	  49064	   bfa8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    936	      0	      0	      0	    936	    3a8	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1599	   2044	   4640	    240	   8523	   214b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  51599	   2044	   4640	    240	  58523	   e49b	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+
+Time taken: 187 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 4.875 secs
+**** Build Finished [So, 29 Sep 2024 19:24:40] ****

@@ -4,7 +4,7 @@
 #include 		"fft.h"
 #include 		"fft_ref.h"
 
-#define M       4
+#define M       3
 
 #define NumberOfPoints       (1<<M) // 2^M
 

@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="29" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="130" y="130">
+<window height="768" maximized="true" width="1025" x="-2501" y="1170">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="302" y="31"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="41"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com.tensilica.xide.cdt.ui.actionSet.activeSetFiltering" itemType="typeToolBarContribution" x="38" y="31"/>
-<coolItem id="com.tensilica.xide.core.xpg.XPGConnectionMgr.connectXPG" itemType="typeToolBarContribution" x="38" y="31"/>
-<coolItem id="com.tensilica.xide.scon.StartupWizard" itemType="typeToolBarContribution" x="38" y="31"/>
-<coolItem id="com.tensilica.xide.scon.buildAcontrols" itemType="typeToolBarContribution" x="114" y="31"/>
-<coolItem id="com.tensilica.xide.scon.buildBcontrols" itemType="typeToolBarContribution" x="491" y="31"/>
-<coolItem id="com.tensilica.xide.scon.runcontrols" itemType="typeToolBarContribution" x="260" y="31"/>
-<coolItem id="com.tensilica.xide.tutorial.actionSet" itemType="typeToolBarContribution" x="84" y="31"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="53" y="31"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="31"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="31"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="31"/>
+<coolItem id="com.tensilica.xide.cdt.ui.actionSet.activeSetFiltering" itemType="typeToolBarContribution" x="38" y="41"/>
+<coolItem id="com.tensilica.xide.core.xpg.XPGConnectionMgr.connectXPG" itemType="typeToolBarContribution" x="38" y="41"/>
+<coolItem id="com.tensilica.xide.scon.StartupWizard" itemType="typeToolBarContribution" x="38" y="41"/>
+<coolItem id="com.tensilica.xide.scon.buildAcontrols" itemType="typeToolBarContribution" x="158" y="41"/>
+<coolItem id="com.tensilica.xide.scon.buildBcontrols" itemType="typeToolBarContribution" x="687" y="41"/>
+<coolItem id="com.tensilica.xide.scon.runcontrols" itemType="typeToolBarContribution" x="357" y="41"/>
+<coolItem id="com.tensilica.xide.tutorial.actionSet" itemType="typeToolBarContribution" x="84" y="41"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="63" y="41"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="63" y="41"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="89" y="41"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="41"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="230" y="41"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.tensilica.xide.scon.edxcf.XCFEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.tensilica.xide.ed.ted.TED" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -37,12 +38,16 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.tensilica.xide.ed.ted.TED" name="fir_tie.tie" partName="fir_tie.tie" path="U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fir_tie.tie" title="fir_tie.tie" tooltip="XtensaInfo/TIEFiles/fir_tie.tie" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/XtensaInfo/TIEFiles/fir_tie.tie"/>
+<editor id="com.tensilica.xide.scon.edxcf.XCFEditor" name="hwsw_codesign2019_aligned.xc" partName="hwsw_codesign2019_aligned.xc" path="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.xc" title="hwsw_codesign2019_aligned.xc" tooltip="XtensaInfo/Models/hwsw_codesign2019_aligned.xc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/XtensaInfo/Models/hwsw_codesign2019_aligned.xc"/>
+</editor>
+<editor activePart="true" focus="true" id="com.tensilica.xide.ed.ted.TED" name="fft_tie.tie" partName="fft_tie.tie" path="U:/HWSWCODESIGN/workspace/XtensaInfo/TIEFiles/fft_tie.tie" title="fft_tie.tie" tooltip="XtensaInfo/TIEFiles/fft_tie.tie" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/XtensaInfo/TIEFiles/fft_tie.tie"/>
 </editor>
 </editors>
 <views>
@@ -57,15 +62,6 @@
 </view>
 <view id="com.tensilica.xide.ui.views.xpg.repository.XPGRepositoryView" partName="XPG View"/>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="com.tensilica.xide.benchmark.ui.AssemblyProfileView" partName="Profile Disassembly">
-<viewState>
-<menus>
-<menu_item element="Symbolic Address" isChecked="true"/>
-<menu_item element="Interleaved Source" isChecked="true"/>
-<menu_item element="Multi-line FLIX" isChecked="true"/>
-</menus>
-</viewState>
-</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -83,7 +79,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="233" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="405"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -100,7 +96,9 @@
 <view id="com.tensilica.xide.benchmark.ui.ProfileView" partName="Profile (Cycles)">
 <viewState/>
 </view>
-<view id="com.tensilica.xide.scon.estimview.EstimationView" partName="Estimation"/>
+<view id="com.tensilica.xide.scon.estimview.EstimationView" partName="Estimation - hwsw_codesign2019_aligned">
+<viewState/>
+</view>
 </views>
 <perspectives activePart="com.tensilica.xide.ed.ted.TED" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
@@ -207,14 +205,15 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.74922603" ratioLeft="484" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.tensilica.xide.scon.estimview.EstimationView" label="Estimation"/>
+<page content="com.tensilica.xide.scon.estimview.EstimationView" label="Estimation - hwsw_codesign2019_aligned"/>
 <page content="com.tensilica.xide.ui.views.xpg.repository.XPGRepositoryView" label="XPG View"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="com.tensilica.xide.benchmark.ui.ProfileView" label="LabelNotFound"/>
+<page content="com.tensilica.xide.simd.SimdView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -303,7 +302,6 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="com.tensilica.xide.trace.ui.TracePerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="com.tensilica.xide.benchmark.ui.ProjectView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.tensilica.xide.benchmark.ui.ProfileView"/>
 <view id="com.tensilica.xide.benchmark.ui.CallGraphView"/>
@@ -311,16 +309,19 @@
 <view id="com.tensilica.xide.benchmark.ui.OutputView"/>
 <view id="com.tensilica.xide.benchmark.ui.PipelineView"/>
 <view id="com.tensilica.xide.benchmark.ui.ISAProfileView"/>
-<view id="com.tensilica.xide.benchmark.ui.AssemblyProfileView"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="com.tensilica.xide.benchmark.ui.ProjectView" style="1">
+<fastViews>
+<view id="com.tensilica.xide.benchmark.ui.ProjectView" ratio="0.29982427"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="com.tensilica.xide.benchmark.ui.ProjectView" appearance="2" expanded="2">
-<page content="com.tensilica.xide.benchmark.ui.ProjectView" label="Benchmark Results"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="com.tensilica.xide.benchmark.ui.ProjectView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1311" ratioRight="437" relationship="2" relative="left">
@@ -331,8 +332,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="437" ratioRight="1311" relationship="2" relative="left"/>
-<info folder="true" part="bottomright" ratio="0.6998739" ratioLeft="555" ratioRight="238" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.tensilica.xide.benchmark.ui.PipelineView" appearance="2" expanded="2">
+<info folder="true" part="bottomright" ratio="0.8313253" ratioLeft="1173" ratioRight="238" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.tensilica.xide.benchmark.ui.ProfileView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.tensilica.xide.benchmark.ui.ProfileView" label="Profile (Cycles)"/>
 <page content="com.tensilica.xide.benchmark.ui.CallGraphView" label="Call-Graph"/>
@@ -352,11 +353,9 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.6498856" ratioLeft="852" ratioRight="459" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.tensilica.xide.benchmark.ui.AssemblyProfileView" appearance="2" expanded="2">
-<page content="com.tensilica.xide.benchmark.ui.AssemblyProfileView" label="Profile Disassembly"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="com.tensilica.xide.benchmark.ui.AssemblyProfileView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -366,143 +365,155 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/HelloWorld/Makefile"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HelloWorld/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft_final/fft.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft_final/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/solution/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/solution/fft_ref.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft_final/fft_dit.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft_final/fft_dif.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.ed.ted.TED" path="/XtensaInfo/TIEFiles/fft_tie.tie"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/solution/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/xtos/reset-vector.S"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/vfprintf.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/fclose.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdlib/mallocr.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/xtos/reset-vector.S"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/xtos/crt1-sim.S"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.ed.ted.TED" path="/XtensaInfo/TIEFiles/fir_tie.tie"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.ed.ted.TED" path="/XtensaInfo/TIEFiles/fft_tie.tie"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/solution/fft_ref.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/vfprintf.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft/fft.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.scon.edxcf.XCFEditor" path="/XtensaInfo/Models/hwsw2.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.scon.edxcf.XCFEditor" path="/XtensaInfo/Models/hwsw_codesign2019_aligned.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/fft_final/main.c"/>
 </editors>
-<item historyLabel="Makefile" index="0">
+<item historyLabel="fft.h" index="0">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="fft.h" index="0">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="fft_dit.c" index="4">
+<position info="not_deleted" x="1372" y="0"/>
+</item>
+<item historyLabel="fft_dif.c" index="5">
+<position info="not_deleted" x="2708" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="2172" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position/>
+</item>
+<item historyLabel="fft_ref.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position/>
+</item>
+<item historyLabel="fft_ref.c" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
-<position info="not_deleted" x="10" y="7"/>
+<position info="not_deleted" x="2172" y="0"/>
+</item>
+<item historyLabel="fft_ref.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
-<position info="not_deleted" x="24" y="4"/>
+<position info="not_deleted" x="2172" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
-<position info="not_deleted" x="94" y="0"/>
+<position info="not_deleted" x="2172" y="0"/>
 </item>
-<item historyLabel="reset-vector.S" index="2">
+<item historyLabel="fft_ref.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="fft_tie.tie" index="6"/>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="2227" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="2227" y="0"/>
+</item>
+<item historyLabel="fft_ref.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="2227" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="759" y="34"/>
+</item>
+<item historyLabel="fft.h" index="0">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="reset-vector.S" index="8">
 <position/>
 </item>
-<item historyLabel="reset-vector.S" index="2">
-<position/>
-</item>
-<item historyLabel="vfprintf.c" index="3">
+<item historyLabel="vfprintf.c" index="9">
 <position info="not_deleted" x="16025" y="18"/>
 </item>
-<item historyLabel="reset-vector.S" index="2">
+<item historyLabel="reset-vector.S" index="8">
 <position/>
 </item>
-<item historyLabel="fclose.c" index="4">
-<position info="not_deleted" x="2000" y="25"/>
+<item historyLabel="fft_tie.tie" index="10"/>
+<item historyLabel="fft_ref.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="mallocr.c" index="5">
+<item historyLabel="fft_tie.tie" index="10"/>
+<item historyLabel="vfprintf.c" index="12">
 <position/>
 </item>
-<item historyLabel="fclose.c" index="4">
-<position info="not_deleted" x="2000" y="25"/>
+<item historyLabel="fft.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="reset-vector.S" index="2">
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="105" y="0"/>
+</item>
+<item historyLabel="vfprintf.c" index="12">
 <position/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="94" y="0"/>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="105" y="0"/>
 </item>
-<item historyLabel="reset-vector.S" index="2">
+<item historyLabel="fft.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="105" y="0"/>
+</item>
+<item historyLabel="vfprintf.c" index="12">
 <position/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
+<item historyLabel="hwsw2.xc" index="15"/>
+<item historyLabel="hwsw2.xc" index="15"/>
+<item historyLabel="vfprintf.c" index="12">
+<position info="not_deleted" x="16025" y="18"/>
 </item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
+<item historyLabel="hwsw2.xc" index="15"/>
+<item historyLabel="hwsw_codesign2019_aligned.xc" index="16"/>
+<item historyLabel="fft_tie.tie" index="10"/>
+<item historyLabel="reset-vector.S" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
+<item historyLabel="fft_tie.tie" index="10"/>
+<item historyLabel="main.c" index="17">
+<position info="not_deleted" x="464" y="10"/>
 </item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="reset-vector.S" index="2">
-<position info="not_deleted" x="5798" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="mallocr.c" index="5">
-<position info="not_deleted" x="81017" y="72"/>
-</item>
-<item historyLabel="reset-vector.S" index="6">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="20" y="33"/>
-</item>
-<item historyLabel="crt1-sim.S" index="7">
-<position info="not_deleted" x="3480" y="3"/>
-</item>
-<item historyLabel="reset-vector.S" index="6">
-<position/>
-</item>
-<item historyLabel="crt1-sim.S" index="7">
-<position info="not_deleted" x="3480" y="3"/>
-</item>
-<item historyLabel="reset-vector.S" index="6">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item historyLabel="reset-vector.S" index="6">
-<position info="not_deleted" x="5800" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="20" y="33"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="95" y="0"/>
-</item>
-<item active="true" historyLabel="fir_tie.tie" index="8"/>
+<item active="true" historyLabel="fft_tie.tie" index="10"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -513,10 +524,10 @@
 <trimItem IMemento.internal.id="left"/>
 </trimArea>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottomright"/>
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="bottomright"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
@@ -527,29 +538,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.ed.ted.TED" name="fir_tie.tie" tooltip="XtensaInfo/TIEFiles/fir_tie.tie">
-<persistable path="/XtensaInfo/TIEFiles/fir_tie.tie"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="fft_final/main.c">
+<persistable path="/fft_final/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="reset-vector.S" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/xtos/reset-vector.S">
 <persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/xtos/reset-vector.S"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="crt1-sim.S" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/xtos/crt1-sim.S">
-<persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/xtos/crt1-sim.S"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.ed.ted.TED" name="fft_tie.tie" tooltip="XtensaInfo/TIEFiles/fft_tie.tie">
+<persistable path="/XtensaInfo/TIEFiles/fft_tie.tie"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mallocr.c" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdlib/mallocr.c">
-<persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdlib/mallocr.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="tc.log" tooltip="XtensaInfo/Models/hwsw_codesign2019_aligned.tdk/tc.log">
+<persistable path="/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk/tc.log"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fclose.c" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/fclose.c">
-<persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/fclose.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.scon.edxcf.XCFEditor" name="hwsw_codesign2019_aligned.xc" tooltip="XtensaInfo/Models/hwsw_codesign2019_aligned.xc">
+<persistable path="/XtensaInfo/Models/hwsw_codesign2019_aligned.xc"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vfprintf.c" tooltip="libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/vfprintf.c">
 <persistable path="/libc_RF-2016.4/LinkToXtensaElf/src/newlib/newlib/libc/stdio/vfprintf.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="HelloWorld/main.c">
-<persistable path="/HelloWorld/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tensilica.xide.scon.edxcf.XCFEditor" name="hwsw2.xc" tooltip="XtensaInfo/Models/hwsw2.xc">
+<persistable path="/XtensaInfo/Models/hwsw2.xc"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" name="Makefile" tooltip="HelloWorld/Makefile">
-<persistable path="/HelloWorld/Makefile"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="fft/main.c">
+<persistable path="/fft/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fft.c" tooltip="fft/fft.c">
+<persistable path="/fft/fft.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="solution/main.c">
+<persistable path="/solution/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fft_ref.c" tooltip="solution/fft_ref.c">
+<persistable path="/solution/fft_ref.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fft_ref.c" tooltip="fft_final/fft_ref.c">
+<persistable path="/fft_final/fft_ref.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fft_ref.h" tooltip="solution/fft_ref.h">
+<persistable path="/solution/fft_ref.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fixed.c" tooltip="solution/fixed.c">
+<persistable path="/solution/fixed.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fixed.h" tooltip="solution/fixed.h">
+<persistable path="/solution/fixed.h"/>
 </file>
 </mruList>
 </workbench>

@@ -1,6 +1,7 @@
+SimdViewPrefStateMemento=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<SimdViewMemento colwidth0\="135" colwidth1\="135" colwidth2\="90" colwidth3\="90" colwidth4\="35" colwidth5\="240" colwidth6\="1856" filterOut\="SIMD_NO_LOOP,SIMD_LOOP_BEGIN,SIMD_OUTER_LOOP,SIMD_NO_SNL,SIMD_PROC_BEGIN" reverse0\="false" reverse1\="false" reverse2\="true" reverse3\="true" reverse4\="false" reverse5\="false" reverse6\="false" sortColumn\="2" version\="1.0.0"/>
 XideStartup_is_default_eclipse_repos_removed_pref=true
 eclipse.preferences.version=1
 searchpath=C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/sample_flix/config/sample_flix-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/tie_dev2/config/tie_dev2-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/hifi3_bd5/config/hifi3_bd5-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/hifiep_bd5/config/hifiep_bd5-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/sample_controller/config/sample_controller-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/tie_dev1/config/tie_dev1-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/hifi_mini/config/hifi_mini-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/sample_config/config/sample_config-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/hifi2_std/config/hifi2_std-params;C\:/usr/xtensa/XtDevTools/install/builds/RG-2017.7-win32/XRC_FusionF1_All_cache/config/XRC_FusionF1_All_cache-params;C\:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config
 startup.discoverbuilds=false
-ws.open.count=1
+ws.open.count=3
 xtensaVersionPref=RF-2016.4

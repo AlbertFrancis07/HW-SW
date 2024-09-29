@@ -1,9 +1,9 @@
-**** Incremental Build [So, 1 Sep 2024 21:18:33] ****
+**** Incremental Build [So, 29 Sep 2024 18:57:10] ****
  Project: fft
- Configuration: hwsw_codesign2019_aligned
+ Configuration: hwsw2
  Build Target: Debug
 ********************************
 
 Nothing to build.
-Total time taken: 0.016 secs
-**** Build Finished [So, 1 Sep 2024 21:18:33] ****
+Total time taken: 0.015 secs
+**** Build Finished [So, 29 Sep 2024 18:57:10] ****

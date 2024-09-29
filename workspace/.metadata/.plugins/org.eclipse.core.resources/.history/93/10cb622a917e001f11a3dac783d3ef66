@@ -1,0 +1,154 @@
+#include "fft.h"
+#include <xtensa/tie/xt_booleans.h>
+#include <xtensa/tie/fft_tie.h>
+#include <stdio.h>
+
+#define aligned_by_16 __attribute__ ((aligned(16)))
+#define aligned_by_8 __attribute__ ((aligned(8)))
+#define aligned_by_4 __attribute__ ((aligned(4)))
+#define fixed_complex int
+
+#define SHUFFLE 0
+#define REVERSE_SHUFFLE 1
+
+#define UPPER 1
+#define LOWER 0
+
+
+
+int fix_fft_dif(fixed fr[], fixed fi[], int m, int inverse)
+{
+    int mr,nn,i,j,l,k, n, scale, shift;
+    
+    fixed tr,ti;		//odd input
+    
+    //number of input data (n = 2^m), m is the number of stages
+    n = 1 << m;
+    
+    int size = m;
+
+    if(n > N_WAVE) return -1;
+
+    mr = 0;
+    nn = n - 1;
+    scale = 0;
+	    
+    l = n>>1;
+    k = LOG2_N_WAVE-m;
+    
+    while(l > 0) // 1 run per stage
+    {
+        if(inverse)
+        {
+            /* variable scaling, depending upon data */
+            shift = 0;
+            for(i=0; i<n; i=i+8)
+            {
+				reg8x16 j_reg = SIMD_LOAD(fr, i);
+				reg8x16 m_reg = SIMD_LOAD(fi, i);
+            	
+            	if (SHIFT_CONDITION(j_reg, m_reg))
+            	{
+            		shift = 1;
+            		break;
+            	}
+            }
+            if(shift) ++scale;
+        }
+        else
+        {
+            shift = 1;
+        }
+        
+        /* it may not be obvious, but the shift will be performed
+           on each data point exactly once, during this pass. */
+        
+        // First Stages
+        if (l > 4) {
+			WUR_REG_K(k);
+
+			for (i=0; i<n; i = i+(2*l))
+             {
+				for (m = i; m<l+i; m+=8)
+				{
+					reg8x16 real_1;
+					reg8x16 imag_1;
+					reg8x16 real_2;
+					reg8x16 imag_2;
+
+					// Loading of Values
+					SIMD_LOAD_INTERLEAVED(fr, m, real_1, real_2, UPPER);
+					SIMD_LOAD_INTERLEAVED(fi, m, imag_1, imag_2, UPPER);
+
+					SIMD_LOAD_INTERLEAVED(fr, m+l, real_1, real_2, LOWER);
+					SIMD_LOAD_INTERLEAVED(fi, m+l, imag_1, imag_2, LOWER);
+
+					// Calculation stage
+					DIF_CALC_STAGE(real_1, imag_1, shift, m, inverse);
+					DIF_CALC_STAGE(real_2, imag_2, shift, m+4, inverse);
+
+					// Storing of values
+					SIMD_STORE_INTERLEAVED(fr, m, real_1, real_2, UPPER);
+					SIMD_STORE_INTERLEAVED(fi, m, imag_1, imag_2, UPPER);
+
+					SIMD_STORE_INTERLEAVED(fr, m+l, real_1, real_2, LOWER);
+					SIMD_STORE_INTERLEAVED(fi, m+l, imag_1, imag_2, LOWER);
+				}
+			}
+		} else { // Last three stages
+
+			for (i=0; i<n; i = i+8) {
+				register reg8x16 real, imag;
+
+				k = 7;
+
+				real = SIMD_LOAD_SHUFFLED(fr, i, SHUFFLE);
+				imag = SIMD_LOAD_SHUFFLED(fi, i, SHUFFLE);
+
+				DIF_FIRST_STAGE(k, inverse, shift, real, imag);
+
+				++k;
+
+				DIF_SECOND_STAGE(k, inverse, shift, real, imag);
+
+				++k;
+
+				DIF_LAST_STAGE(k, inverse, shift, real, imag);
+
+				// Werte speichern und shuffeln
+				SIMD_STORE(fr, i, real);
+				SIMD_STORE(fi, i, imag);
+			}
+
+			// Return from the while loop, since all calculations are done after this stage
+			break;
+
+		}
+
+        ++k;
+        l >>= 1;
+    }
+    
+    
+    
+       /* decimation in frequency - re-order data */
+       for(m=1; m<=nn; ++m) 
+       {
+    	   mr = BIT_REVERSE(m, size);
+       	
+           if(mr <= m) continue;
+           
+           // swap contents of memory (real part & imaginary part)
+           tr = fr[m];
+           ti = fi[m];
+           
+           fr[m] = fr[mr];
+           fi[m] = fi[mr];
+           
+           fr[mr] = tr;
+           fi[mr] = ti;
+       }
+    
+
+    return scale;
+}
