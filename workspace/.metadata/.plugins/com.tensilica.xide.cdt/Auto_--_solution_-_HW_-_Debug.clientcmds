@@ -1,0 +1,2 @@
+# client commands for the simulator launch
+profile --force-suffix --all U:\HWSWCODESIGN\workspace\solution\bin\HW\Debug\gmon.xx

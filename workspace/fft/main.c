@@ -5,7 +5,7 @@
 #include        <stdio.h>
 #include        <math.h>
 
-#define DO_FFT	2
+#define DO_FFT	1
 
 #define M       3
 
@@ -45,7 +45,7 @@ int main()
 #else
     
     //IFFT
-    fix_fft(real, imag, M, 1);
+    fix_fft_dif(real, imag, M, 1);
     
     printf("\nIFFT\n");
     for (i=0; i<N; i++)

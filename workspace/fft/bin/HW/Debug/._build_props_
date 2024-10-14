@@ -1,0 +1,17 @@
+
+<PROJECT>:=fft
+<CONFIG>:=HW
+<TARGET>:=Debug
+<FEEDBACK>:=FBmode: Off
+
+<TIE_COMPILE>:=
+<PRE_FINAL>:=
+<OBJS>:=[U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/main.o, U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft.o, U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/dif.o]
+<MINSIZE_LINK>:=-Wl,@U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=
+<FINAL>:=-Wl,@U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=
+
+<COMPILE_START>
+main.c:=-c -g -O3 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_HW -DCONFIG_HW --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/main.o"
+fft.c:=-c -g -O3 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_HW -DCONFIG_HW --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/fft.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft.o"
+dif.c:=-c -g -O3 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_HW -DCONFIG_HW --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/dif.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/dif.o"
+<COMPILE_END>

@@ -1,0 +1,52 @@
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-run --xtensa-core=hwsw_codesign2019_aligned --xtensa-system=C:\usr\xtensa\XtDevTools\install\builds\RF-2016.4-win32\hwsw_codesign2019_aligned\config --xtensa-params= --console --summary --client=U:\HWSWCODESIGN\workspace\.metadata\.plugins\com.tensilica.xide.cdt\Auto_--_fft_-_HW_-_Debug.clientcmds U:\HWSWCODESIGN\workspace\fft\bin\HW\Debug\fft
+
+Input Data
+0: 1000, 0
+1: 707, 0
+2: 0, 0
+3: -707, 0
+4: -1000, 0
+5: -707, 0
+6: 0, 0
+7: 707, 0
+
+FFT
+0: -1, 0
+1: 499, -1
+2: 0, 0
+3: 1, -1
+4: 1, 0
+5: 1, 1
+6: 0, 0
+7: 499, 1
+
+Xtensa Core: "hwsw_codesign2019_aligned"  ISS Version: 11.0.4
+
+Time for Simulation = 0.09 seconds
+
+Current PC = 0x6000bbc2
+
+Events                           Number  Number
+                                         per 100
+                                         instrs 
+
+Committed instructions           35847 ( 100.00 )
+Taken branches                    6997 (  19.52 )
+Exceptions                          39 (   0.11 )
+   WindowOverflow                   20 (   0.06 )
+   WindowUnderflow                  19 (   0.05 )
+Loads                             6681 (  18.64 )
+Stores                            4516 (  12.60 )
+
+Cycles: total = 56319
+                                                Summed |          Summed
+                                        CPI      CPI   |% Cycle  % Cycle
+Committed instructions         35847 ( 1.0000   1.0000 |  63.65    63.65 )
+Taken branches                 14565 ( 0.4063   1.4063 |  25.86    89.51 )
+Pipeline interlocks             2315 ( 0.0646   1.4709 |   4.11    93.62 )
+Exceptions                       195 ( 0.0054   1.4763 |   0.35    93.97 )
+Sync replays                    3114 ( 0.0869   1.5632 |   5.53    99.50 )
+Special instructions              87 ( 0.0024   1.5656 |   0.15    99.65 )
+Loop overhead                    191 ( 0.0053   1.5710 |   0.34    99.99 )
+Reset                              5 ( 0.0001   1.5711 |   0.01   100.00 )
+

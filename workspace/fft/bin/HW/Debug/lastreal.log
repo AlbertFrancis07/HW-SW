@@ -1,0 +1,23 @@
+**** Incremental Build [Mo, 14 Okt 2024 12:29:30] ****
+ Project: fft
+ Configuration: HW
+ Build Target: Debug
+********************************
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O3 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/fft" -DPROC_HW -DCONFIG_HW --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params= "U:/HWSWCODESIGN/workspace/fft/main.c" -o "U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/main.o"
+Time taken: 1157 ms
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=
+Time taken: 422 ms
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=
+Time taken: 609 ms
+******* Code size summary *****
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  44270	      0	      0	      0	  44270	   acee	U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft
+literal	    848	      0	      0	      0	    848	    350	U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft
+other  	   1609	   1856	   4608	    144	   8217	   2019	U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft
+Total  	  46727	   1856	   4608	    144	  53335	   d057	U:/HWSWCODESIGN/workspace/fft/bin/HW/Debug/fft
+Time taken: 250 ms
+******* ************** *****
+Build successful !!
+Total time taken: 3.547 secs
+**** Build Finished [Mo, 14 Okt 2024 12:29:33] ****

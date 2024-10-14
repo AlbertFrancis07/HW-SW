@@ -1,5 +1,10 @@
-File: fir_tie.tie, Line: 56, Warning: (TIE_TABLE_VALUE), Table coeff, the entry -3 is a 32 bit value that will not be correctly represented since the width of the table is 16 bits. If this table is used in an immediate operand, this value will not be encoded correctly.
-File: fir_tie.tie, Line: 56, Warning: (TIE_TABLE_VALUE), Table coeff, the entry -1 is a 32 bit value that will not be correctly represented since the width of the table is 16 bits. If this table is used in an immediate operand, this value will not be encoded correctly.
-File: fir_tie.tie, Line: 23, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.VR_fir, ld.VR_fir, st.VR_fir created for regfile "VR_fir".
+File: fft_tie.tie, Line: 326, Warning: (TIE_SHIFT_AMOUNT), Shift expression will result in a 32 bit shifter implementation which is unreasonable.
+File: fft_tie.tie, Line: 327, Warning: (TIE_SHIFT_AMOUNT), Shift expression will result in a 32 bit shifter implementation which is unreasonable.
+File: fft_tie.tie, Line: 328, Warning: (TIE_SHIFT_AMOUNT), Shift expression will result in a 32 bit shifter implementation which is unreasonable.
+File: fft_tie.tie, Line: 329, Warning: (TIE_SHIFT_AMOUNT), Shift expression will result in a 32 bit shifter implementation which is unreasonable.
+File: fft_tie.tie, Line: 579, Warning: (TIE_OPERATION_NO_DEP), Operation "DIT_FIRST_STAGE", input argument "k" is not used to compute any of the operation outputs
+File: fft_tie.tie, Line: 749, Warning: (TIE_OPERATION_NO_DEP), Operation "DIF_LAST_STAGE", input argument "k" is not used to compute any of the operation outputs
+Warning: (TIE_ENCODING_USED), In slot Inst, the following instructions were assigned encodings that interfere with the Multiprocessor Synchronization architectural option(s). These encodings were chosen because no other encodings were possible given the instruction description. You will be unable to use that option with this TIE. The instructions are: SIMD_STORE_SHUFFLED, SIMD_LOAD_INTERLEAVED, SIMD_STORE_INTERLEAVED
+File: fft_tie.tie, Line: 74, Message: (TIE_GENERATED_OPERATION), Operation(s) mv.reg8x16, ld.reg8x16, st.reg8x16 created for regfile "reg8x16".
 
-0 error(s), 2 warning(s) 1 message(s)
+0 error(s), 7 warning(s) 1 message(s)

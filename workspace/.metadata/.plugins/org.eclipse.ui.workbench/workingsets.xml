@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1723827595791_1" label="Active Set Content" name="Active Set Content">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/XtensaInfo/Models/HW.xc" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fft" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/XtensaInfo/TIEFiles/fft_tie.tie" type="1"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/XtensaInfo/Models/hwsw_codesign2019_aligned.xc" type="1"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fft_final" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fft_final/fft_dit.c" type="1"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1723827658353_2" label="My C Projects and TIE" name="My C Projects and TIE">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/solution" type="4"/>

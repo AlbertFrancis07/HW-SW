@@ -1,0 +1,14 @@
+
+<PROJECT>:=Test
+<CONFIG>:=HW
+<TARGET>:=Debug
+<FEEDBACK>:=FBmode: Off
+
+<TIE_COMPILE>:=
+<PRE_FINAL>:=
+<OBJS>:=
+<MINSIZE_LINK>:=
+<FINAL>:=
+
+<COMPILE_START>
+<COMPILE_END>

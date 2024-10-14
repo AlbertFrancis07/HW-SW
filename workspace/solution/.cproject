@@ -20,7 +20,7 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1285637919" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/solution"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/lib/xcc/include"/>
-									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk/include"/>
+									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/HW.tdk/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/xtensa-elf/arch/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/xtensa-elf/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/xtensa-elf/include"/>
@@ -73,7 +73,7 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.2048201444" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/solution"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/lib/xcc/include"/>
-									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk/include"/>
+									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/HW.tdk/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/xtensa-elf/arch/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/xtensa-elf/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/xtensa-elf/include"/>
@@ -126,7 +126,7 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1322751400" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/solution"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/lib/xcc/include"/>
-									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw2.tdk/include"/>
+									<listOptionValue builtIn="false" value="U:/HWSWCODESIGN/workspace/XtensaInfo/Models/HW.tdk/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/xtensa-elf/arch/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/xtensa-elf/include"/>
 									<listOptionValue builtIn="false" value="C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/xtensa-elf/include"/>
@@ -205,4 +205,5 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="refreshScope"/>
 </cproject>

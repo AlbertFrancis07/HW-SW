@@ -1,0 +1,12 @@
+**** Incremental Build [Mi, 9 Okt 2024 17:21:31] ****
+ Project: Test
+ Configuration: HW
+ Build Target: Debug
+********************************
+Compiling TIE source(s) attached to configuration "HW" ...
+C:/usr/xtensa/XtDevTools/install/tools/RF-2016.4-win32/XtensaTools/bin/tc --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned -d U:/HWSWCODESIGN/workspace/XtensaInfo/Models/HW.tdk  -libdebug   -Y -noerrformat  -name fft U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\dif.tie U:\HWSWCODESIGN\workspace\XtensaInfo\TIEFiles\dit.tie
+File: dif.tie, Line: 124, Error: (TIE_GENERATE), format "flix64_0" cannot be encoded. No bit can be used for length/format encoding.
+1 error(s), 0 warning(s) 0 message(s)
+Build error encountered... cannot continue further.
+Total time taken: 2.938 secs
+**** Build Finished [Mi, 9 Okt 2024 17:21:34] ****
