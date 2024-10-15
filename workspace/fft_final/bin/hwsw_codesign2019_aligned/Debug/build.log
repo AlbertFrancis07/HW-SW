@@ -1,0 +1,23 @@
+**** Incremental Build [Di, 15 Okt 2024 07:47:10] ****
+ Project: fft_final
+ Configuration: hwsw_codesign2019_aligned
+ Build Target: Debug
+********************************
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xcc -c -g -O3 -fmessage-length=0 -I "U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk" -I "U:/HWSWCODESIGN/workspace/fft_final" -DPROC_hwsw_codesign2019_aligned -DCONFIG_hwsw_codesign2019_aligned --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk "U:/HWSWCODESIGN/workspace/fft_final/main.c" -o "U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/main.o"
+Time taken: 687 ms
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk
+Time taken: 344 ms
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-xc++ -Wl,@U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/objfiles.list -o U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RF-2016.4-win32/hwsw_codesign2019_aligned/config --xtensa-core=hwsw_codesign2019_aligned --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk
+Time taken: 515 ms
+******* Code size summary *****
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-size -C U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  46265	      0	      0	      0	  46265	   b4b9	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+literal	    860	      0	      0	      0	    860	    35c	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+other  	   1618	   1896	   4640	    240	   8394	   20ca	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Total  	  48743	   1896	   4640	    240	  55519	   d8df	U:/HWSWCODESIGN/workspace/fft_final/bin/hwsw_codesign2019_aligned/Debug/fft_final
+Time taken: 219 ms
+******* ************** *****
+Build successful !!
+Total time taken: 2.718 secs
+**** Build Finished [Di, 15 Okt 2024 07:47:13] ****

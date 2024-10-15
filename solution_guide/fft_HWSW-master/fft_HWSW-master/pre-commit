@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cp ../XtensaInfo/TIEFiles/dit.tie .
-cp ../XtensaInfo/TIEFiles/dif.tie .

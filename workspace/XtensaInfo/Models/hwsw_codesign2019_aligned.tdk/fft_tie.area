@@ -73,4 +73,4 @@ estimated area using hardware synthesis tool as design attains maturity.
             1092 TIE toplogic for muxing and pipeline management (1.27%)
 
 
-cpu_seconds 0.33
+cpu_seconds 0.27

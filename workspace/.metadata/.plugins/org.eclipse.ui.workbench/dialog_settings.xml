@@ -3,8 +3,14 @@
 	<section name="ShowViewDialog">
 		<item value="472" key="DIALOG_WIDTH"/>
 		<item value="447" key="DIALOG_Y_ORIGIN"/>
-		<item value="1215" key="DIALOG_X_ORIGIN"/>
 		<item value="517" key="DIALOG_HEIGHT"/>
+		<item value="1215" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="com.tensilica.xide.wizards.ximport.ExportXtensaWorkspaceWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="com.tensilica.xide.wizards.export.xplorer"/>
+		</list>
 	</section>
 </section>

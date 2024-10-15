@@ -1,0 +1,51 @@
+C:\usr\xtensa\XtDevTools\install\tools\RF-2016.4-win32\XtensaTools\bin\xt-run --xtensa-core=hwsw_codesign2019_aligned --xtensa-system=C:\usr\xtensa\XtDevTools\install\builds\RF-2016.4-win32\hwsw_codesign2019_aligned\config --xtensa-params=U:/HWSWCODESIGN/workspace/XtensaInfo/Models/hwsw_codesign2019_aligned.tdk --console --summary --client=U:\HWSWCODESIGN\workspace\.metadata\.plugins\com.tensilica.xide.cdt\Auto_--_fft_final_-_hwsw_codesign2019_aligned_-_Debug.clientcmds U:\HWSWCODESIGN\workspace\fft_final\bin\hwsw_codesign2019_aligned\Debug\fft_final
+
+Input Data
+0: 1000, 0
+1: 707, 0
+2: 0, 0
+3: -707, 0
+4: -1000, 0
+5: -707, 0
+6: 0, 0
+7: 707, 0
+--------------DIF-------------
+0: 0, 0
+1: 499, -1
+2: 0, 0
+3: -1, 0
+4: 0, 0
+5: 0, 1
+6: 0, 0
+7: 499, 0
+
+Xtensa Core: "hwsw_codesign2019_aligned"  ISS Version: 11.0.4
+
+Time for Simulation = 0.08 seconds
+
+Current PC = 0x6000c3ba
+
+Events                           Number  Number
+                                         per 100
+                                         instrs 
+
+Committed instructions           34990 ( 100.00 )
+Taken branches                    6847 (  19.57 )
+Exceptions                          39 (   0.11 )
+   WindowOverflow                   20 (   0.06 )
+   WindowUnderflow                  19 (   0.05 )
+Loads                             6407 (  18.31 )
+Stores                            4398 (  12.57 )
+
+Cycles: total = 55008
+                                                Summed |          Summed
+                                        CPI      CPI   |% Cycle  % Cycle
+Committed instructions         34990 ( 1.0000   1.0000 |  63.61    63.61 )
+Taken branches                 14228 ( 0.4066   1.4066 |  25.87    89.47 )
+Pipeline interlocks             2252 ( 0.0644   1.4710 |   4.09    93.57 )
+Exceptions                       195 ( 0.0056   1.4766 |   0.35    93.92 )
+Sync replays                    3064 ( 0.0876   1.5641 |   5.57    99.49 )
+Special instructions              84 ( 0.0024   1.5665 |   0.15    99.65 )
+Loop overhead                    190 ( 0.0054   1.5720 |   0.35    99.99 )
+Reset                              5 ( 0.0001   1.5721 |   0.01   100.00 )
+
